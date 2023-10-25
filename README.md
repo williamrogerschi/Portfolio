@@ -6,7 +6,7 @@ My Portfolio Repo
 
 
 ### Design Layout 
-- [Draw.io]([url](https://app.diagrams.net/#G1lcupO9NFJIINtUPoN3Fpk44l_FrVrDpN))
+- [Draw.io](https://app.diagrams.net/#G1lcupO9NFJIINtUPoN3Fpk44l_FrVrDpN)
 
 ## Sudo-Code
 
