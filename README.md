@@ -1,11 +1,13 @@
 # Portfolio
 My Portfolio Repo
 
-### WireFraming
-Link: https://lucid.app/lucidchart/57eaec2f-f9cf-4ec4-a3c3-04da838827f7/edit?invitationId=inv_6b2c7c69-dcbc-42a5-adac-04c823d47c11&page=0_0#
+### WireFraming 
+- [Lucid] (https://lucid.app/lucidchart/57eaec2f-f9cf-4ec4-a3c3-04da838827f7/edit?invitationId=inv_6b2c7c69-dcbc-42a5-adac-04c823d47c11&page=0_0#)
 
-### Design Layout
-Link: https://app.diagrams.net/#G1lcupO9NFJIINtUPoN3Fpk44l_FrVrDpN
+
+### Design Layout 
+- [Draw.io] (https://app.diagrams.net/#G1lcupO9NFJIINtUPoN3Fpk44l_FrVrDpN)
+
 
 ## Sudo-Code
 
