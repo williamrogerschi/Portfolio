@@ -38,7 +38,9 @@ body {
 .home-content {
   display: flex;
   flex-direction: column;
-  padding-top: 13%;
+  padding-top: 16%;
+  margin-left: 60px;
+  margin-right: 40px;
 }
 
 h2 {
@@ -57,7 +59,7 @@ p {
   text-decoration: none;
   font-family: 'Gayathri', sans-serif;
   font-weight: 100;
-  font-size: 90px;
+  font-size: 120px;
   color: #1A1818;
 }
 
@@ -69,6 +71,7 @@ p {
   display: flex;
   justify-content: flex-end;
   margin-left: 60px;
+  margin-right: 40px;
 }
 
 .navbar {
