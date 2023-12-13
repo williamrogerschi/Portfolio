@@ -3,7 +3,7 @@ import Nav from './Nav'
 
 const Home = () => {
     return (
-        <div className='header'>
+        <div className='home-container'>
             <div className='home-content'>
                 <h2>Billy Rogers</h2>
                 <p>Software Engineer | Father to two cats | Lover of games | Ops</p>
