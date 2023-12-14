@@ -9,20 +9,19 @@ const News = () => {
             <div className="blog">
                 <div className="blog-part is-menu">
                     <a href="#" className="blog-menu">
-                        Work
+                        Home
                         <svg fill="none" stroke="currentColor" strokeWidth=".7" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-up-right" viewBox="0 0 24 24">
                             <path d="M7 17L17 7M7 7h10v10" />
                         </svg>
                     </a>
-                    <a href="#" className="blog-menu">Studio</a>
-                    <a href="#" className="blog-menu">Blog</a>
-                    <a href="#" className="blog-menu">Contact</a>
-                    <a href="#" className="blog-menu mention">@MagazineDope</a>
-                    <a href="#" className="blog-menu subscribe">Subscribe</a>
+                    <a href="#" className="blog-menu">Github</a>
+                    <a href="#" className="blog-menu">LinkedIn</a>
+                    <a href="#" className="blog-menu mention">Contact</a>
+                    <a href="#" className="blog-menu subscribe">Billy Rogers | 2023</a>
                 </div>
                 <div className="blog-header blog-is-sticky">
                     <div className="blog-article header-article">
-                        <div className="blog-big__title">Self</div>
+                        <div className="blog-bigtitle">Self</div>
                         <div className="blog-menu rounded small-title">Pinned Issue</div>
                     </div>
                     <div className="blog-article page-number">
@@ -32,17 +31,17 @@ const News = () => {
                 <div className="blog-header-container">
                     <div className="blog-header">
                         <div className="blog-article header-article">
-                            <div className="blog-big__title">Esteem</div>
-                            <div className="blog-menu small-title date">12.06.2021</div>
+                            <div className="blog-bigtitle">Practice</div>
+                            <div className="blog-menu small-title date">12.03.2023</div>
                         </div>
                         <div className="blog-article">
-                            <img src="https://images.unsplash.com/photo-1496629062893-b0f566065d44?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
-                                <h2>Sharing The <span>Widespread</span> Acclaim About Motivation</h2>
+                            <img src="./strava.jpeg"alt="" />
+                                <h2>Strava <span>API</span> Stats - Rides - Community</h2>
                                 <div className="blog-detail">
-                                    <span>By Richard Carnation</span>
-                                    <span>5 Min Read</span>
+                                    <span>By Billy Rogers</span>
+                                    <span>3 Min Read</span>
                                 </div>
-                                <p>Blonde received widespread acclaim, with critics praising Ocean's introspective lyrics and the album's unconventional</p>
+                                <p>This was my first project and we had the choice between building a game or using a restful API. I chose to use an API and wanted to build an APP that would allow a user to login and check their profile, rides, and achievements in a simpler UI than what was currently being offered by Strava.</p>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-corner-down-right" viewBox="0 0 24 24">
                                         <path d="M15 10l5 5-5 5" />
@@ -54,15 +53,15 @@ const News = () => {
                     </div>
                     <div className="blog-header">
                         <div className="blog-article header-article">
-                            <div className="blog-big__title">Love</div>
+                            <div className="blog-bigtitle">Control</div>
                             <div className="blog-menu small-title date">12.06.2021</div>
                         </div>
                         <div className="blog-article">
-                            <img src="https://images.unsplash.com/photo-1529255484355-cb73c33c04bb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTh8fGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
-                                <h2>Talking About <span>Vulnerability</span> During Quarantine</h2>
+                            <img src="./Gwent.webp" alt="" />
+                                <h2>Gwent <span>CCG</span> Builder</h2>
                                 <div className="blog-detail">
-                                    <span>By Tom Hiddleston</span>
-                                    <span>5 Min Read</span>
+                                    <span>By Billy Rogers</span>
+                                    <span>4 Min Read</span>
                                 </div>
                                 <p>Having traveled to Turkey multiple times, with critics praising Ocean's introspective lyrics and the album's unconventional</p>
                                 <a href="#">
@@ -76,15 +75,15 @@ const News = () => {
                     </div>
                     <div className="blog-header">
                         <div className="blog-article header-article">
-                            <div className="blog-big__title">Control</div>
+                            <div className="blog-bigtitle">Love</div>
                             <div className="blog-menu small-title date">12.06.2021</div>
                         </div>
                         <div className="blog-article">
-                            <img src="https://images.unsplash.com/photo-1616248249518-b16013cd4e42?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTkzfHxibGFjayUyMGFuZCUyMHdoaXRlfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
-                                <h2>How 2020 Changed <span>Understanding</span> Of Mental Health</h2>
+                            <img src="./swork.jpeg" alt="" />
+                                <h2>Bike <span>Labs</span> Bike Builder</h2>
                                 <div className="blog-detail">
-                                    <span>By Scarlett Witch</span>
-                                    <span>5 Min Read</span>
+                                    <span>By Billy Rogers</span>
+                                    <span>6 Min Read</span>
                                 </div>
                                 <p>Time is defines ad the indefinete continued progress, with critics praising Ocean's introspective lyrics and the album's</p>
                                 <a href="#">

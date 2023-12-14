@@ -8,7 +8,7 @@
 html {
  box-sizing: border-box;
  -webkit-font-smoothing: antialiased;
- background-color: #ECE7E1;;
+ background-color: #ECE7E1;
 }
 
 img {
@@ -115,15 +115,6 @@ body {
     font-size: 1.4vw;
    }
 
-   &:before {
-    content: "";
-    width: 16px;
-    height: 16px;
-    background-color: $subtitle-color;
-    left: 0;
-    border-radius: 1px;
-    margin-right: 14px;
-   }
   }
   &.rounded {
    &:before {
@@ -146,10 +137,10 @@ body {
   }
  }
 
- &-big__title {
+ &-bigtitle {
   font-size: 132px;
   font-family: $title-font;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: -5px;
   line-height: 1;
   margin-bottom: 6px;
@@ -159,7 +150,7 @@ body {
   }
 
   @media screen and (max-width: 1260px) {
-   font-size: 9vw;
+   font-size: 80px;
    letter-spacing: -2px;
   }
 
@@ -182,7 +173,7 @@ body {
    max-height: 22vh;
    width: 100%;
    object-fit: cover;
-   filter: grayscale(1);
+   filter: grayscale(0);
   }
  }
 }
