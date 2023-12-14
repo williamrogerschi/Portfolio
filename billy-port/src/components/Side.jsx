@@ -6,7 +6,6 @@ function Side  () {
             <div className="sidebar">
                 <Link className='side-link' to='https://github.com/williamrogerschi' target='_blank'>GitHub</Link>
                 <Link className='side-link' to='https://www.linkedin.com/in/billy-rogers-chi/' target='_blank'>LinkedIn</Link>
-                <div className='nav-link'>________</div>
             </div>
         </div>
     )

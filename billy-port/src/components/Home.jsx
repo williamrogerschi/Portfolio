@@ -10,8 +10,8 @@ const Home = () => {
                 <div className='home-container'>
                     <div className='home-content'>
                         <h2>Billy Rogers</h2>
-                        <p>Full-Stack Software Engineer | Father to two cats | Lover of games | Ops</p>
-                        <p>General Assembly Alum proficient in the following languages: MongoDB · Django · React.js · Bootstrap · Tailwind CSS · Python  · JavaScript · CSS · HTML5 </p>
+                        <p>Full-Stack Software Engineer | Cat Dad | Ops</p>
+                        <p>Proficient in: React.js · MongoDB · Mongoose · Express · Bootstrap · Tailwind CSS · Python · Django ·  Node.js · JavaScript · CSS · HTML5 </p>
                     </div>
                         <Nav/>
                 </div>

@@ -25,7 +25,6 @@ body {
 .home-wrapper {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 .home-container {
@@ -33,14 +32,32 @@ body {
   justify-content: center;
   align-items: center;
   height: 50vh;
+
+  @media  screen and (max-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 50vh;
+  }
 }
 
 .home-content {
-  display: flex;
-  flex-direction: column;
-  padding-top: 16%;
-  margin-left: 60px;
-  margin-right: 40px;
+  padding-top: 20vh;
+  width: 30%;
+  max-width: 50vw;
+  min-width: 120px;
+  font-size: 1.25vw;
+
+  @media  screen and (max-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 12px;
+    margin: 0;
+    min-width: 50vw;
+}
 }
 
 h2 {
@@ -55,12 +72,32 @@ p {
   margin-bottom: 1px;
 }
 
-.link {
-  text-decoration: none;
-  font-family: 'Gayathri', sans-serif;
-  font-weight: 100;
-  font-size: 120px;
-  color: #1A1818;
+.main-link {
+  animation: animate 3s linear;
+}
+
+@keyframes animate {
+  0% { 
+    opacity: 0; 
+  }
+  100% {
+    animation-play-state: paused;
+     opacity: 1; 
+    }
+}
+
+a.link {
+    z-index: 100;
+    font-family: 'Gayathri', sans-serif;
+    color: #1a1818;
+    text-align: left;
+    font-size: 12vw;
+    font-weight: 300;
+    line-height: .95em;
+    text-decoration: none;
+    transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
+    display: block;
+    position: relative;
 }
 
 .link:hover {
@@ -68,8 +105,6 @@ p {
 }
 
 .nav-container {
-  display: flex;
-  justify-content: flex-end;
   margin-left: 60px;
   margin-right: 40px;
 }
@@ -85,13 +120,29 @@ p {
   display: flex;
   flex-direction: column;
   color: #ECE7E1;
+
+  @media  screen and (max-width: 1200px) {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-top: 12px;
+    margin: 0;
+}
 }
 
 .sidebar {
+  position: relative;
   display: flex;
   flex-direction: column;
-  width: 10%;
-  gap: 40px;
+  width: 6vh;
+
+  @media screen and (max-width: 1200px) {
+      display: flex;
+      flex-direction: row;
+      width: auto; 
+      padding-top: 20px;
+      padding-left: 12px;
+}
 }
 
 a.side-link {
@@ -102,12 +153,21 @@ a.side-link {
   font-family: 'Lexend Tera', sans-serif;
   font-weight: 300;
   font-size: small;
+
+  @media  screen and (max-width: 1200px) {
+    transform: none;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 10px
+}
 }
 
 .side-link:hover {
   text-decoration: line-through;
   text-decoration-thickness: 2px;
-  text-decoration-color: #1a181859;
+  text-decoration-color: #1a181896;
 }
 
 .nav-link {

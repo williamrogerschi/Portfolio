@@ -39,6 +39,15 @@ font-family: 'Space Mono', monospace; */
     padding: 0px 0px 70px 0px;
     color: #ECE7E1;
   }
+
+  
+.home-sidebar {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 12vw;
+  height: 12vh;
+}
   
   
   h1 {
