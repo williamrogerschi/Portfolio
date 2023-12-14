@@ -126,10 +126,20 @@ $border-color: #94918f;
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 1030px) {
-   display: none;
-  }
+  @media screen and (max-width: 1260px) {
+    font-size: 5vw;
+   }
  }
+
+ .footer-nav {
+    padding-top: 32vh;
+
+    @media screen and (max-width: 1260px) {
+        padding-top: 28vh;
+        font-size: 5vw;
+       }
+}
+
 
  &-bigtitle {
   font-size: 132px;
@@ -192,7 +202,7 @@ a.blog-menu:hover {
  white-space: nowrap;
 
  @media screen and (max-width: 1260px) {
-  font-size: 5vw;
+  display: none;
  }
 }
 
@@ -344,7 +354,7 @@ marquee {
  border-bottom: 1px solid $border-color;
  margin-bottom: 20px;
  padding-bottom: 20px;
- margin-top: 8vh;
+ margin-top: 11.1vh;
  letter-spacing: -1px;
 
  @media screen and (max-width: 1400px) {
@@ -454,3 +464,4 @@ marquee {
   display: none;
  }
 }
+

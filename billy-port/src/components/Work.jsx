@@ -8,35 +8,29 @@ const Work = () => {
         <>
             <div className='blog-body'>
                 <div className="blog">
-                    <div className="blog-part is-menu">
-                        {/* <a href="/" className="blog-menu">
-                            Home
-                            <svg fill="none" stroke="currentColor" strokeWidth=".7" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-up-right" viewBox="0 0 24 24">
-                                <path d="M7 17L17 7M7 7h10v10" />
-                            </svg>
-                        </a>
-                        <a href='https://github.com/williamrogerschi' target='_blank' className="blog-menu">Github</a>
-                        <a href='https://www.linkedin.com/in/billy-rogers-chi/' target='_blank' className="blog-menu">LinkedIn</a>
-                        <a href="/Contact" className="blog-menu mention">Contact</a>
-                        <li href="#" className="blog-menu subscribe">© Billy Rogers || 2023</li> */}
+
+                    <div className='blog-article page-number'>
+                        NO. 01
                     </div>
+
                     <div className="blog-header blog-is-sticky">
                         <div className="blog-article header-article">
                             <div className="blog-bigtitle">Self</div>
                             <div className="blog-menu rounded small-title">Pinned Issue</div>
                         </div>
-                        <div className="blog-article page-number">
-                        <a href="/" className="blog-menu">
-                            Home
-                            <svg fill="none" stroke="currentColor" strokeWidth=".7" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-up-right" viewBox="0 0 24 24">
-                                <path d="M7 17L17 7M7 7h10v10" />
-                            </svg>
-                        </a>
-                        <a href='https://github.com/williamrogerschi' target='_blank' className="blog-menu">Github</a>
-                        <a href='https://www.linkedin.com/in/billy-rogers-chi/' target='_blank' className="blog-menu">LinkedIn</a>
-                        <a href="/Contact" className="blog-menu mention">Contact</a>
-                        <li href="#" className="blog-menu subscribe">© Billy Rogers || 2023</li>
-                            NO. 01
+                        <div className="blog-part is-menu">
+                            <a href="/" className="blog-menu">
+                                Home
+                                <svg fill="none" stroke="currentColor" strokeWidth=".7" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-up-right" viewBox="0 0 24 24">
+                                    <path d="M7 17L17 7M7 7h10v10" />
+                                </svg>
+                            </a>
+                            <a href='https://github.com/williamrogerschi' target='_blank' className="blog-menu">Github</a>
+                            <a href='https://www.linkedin.com/in/billy-rogers-chi/' target='_blank' className="blog-menu">LinkedIn</a>
+                            <div className='footer-nav'>
+                            <a href="/Contact" className="blog-menu mention">Contact</a>
+                            <li href="#" className="blog-menu subscribe">© Billy Rogers || 2023</li>
+                            </div>
                         </div>
                     </div>
                     <div className="blog-header-container">
@@ -123,10 +117,10 @@ const Work = () => {
                             <div className="blog-right-container">
                                 <div className="blog-title-date">
                                     <div className="blog-right-page">1</div>
-                                    <div className="date">12.06.2021</div>
+                                    <div className="date">9.17.2023</div>
                                 </div>
-                                <div className="blog-right-page-title">Blonde - Widespread Acclaim</div>
-                                <div className="blog-right-page-subtitle">Blonde received widespread acclaim, with critics praising Ocean's introspective lyrics and the album's</div>
+                                <div className="blog-right-page-title">HTML / CSS / JavaScript</div>
+                                <div className="blog-right-page-subtitle">First week(s) of the SEI bootcamp. Learning the core fundamentals of html, css, and js. Also learning how to navigate GitHub and use VScode.</div>
                             </div>
                             <div className="blog-right-container">
                                 <div className="blog-title-date">
