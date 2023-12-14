@@ -103,9 +103,9 @@ const Work = () => {
                     </div>
                     <div className="blog-part right-blog">
                         <marquee width="100%" direction="left">
-                            <span>Now And Then You Miss It Sounds Make You Cry</span>
-                            <span>Now In - MoMa Sharing Exhibition NOW</span>
-                            <span>NYC Opens After Long Lockdown Check</span>
+                            <span>Experience is the name everyone gives to their mistakes. – Oscar Wilde</span>
+                            <span>Confusion is part of programming. ― Felienne Hermans</span>
+                            <span>I’m not a great programmer; I’m just a good programmer with great habits. ― Kent Beck</span>
                         </marquee>
                         <div className="blog-right-title-container">
                             <div className="blog-right-title">
