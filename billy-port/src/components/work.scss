@@ -1,15 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 
-// * {
-//  outline: none;
-//  box-sizing: border-box;
-// }
-
-// html {
-//  box-sizing: border-box;
-//  -webkit-font-smoothing: antialiased;
-//  background-color: #ECE7E1;
-// }
+* {
+ outline: none;
+ box-sizing: border-box;
+}
 
 img {
  max-width: 100%;
@@ -321,6 +315,7 @@ marquee {
 
 .blog-right {
  overflow: auto;
+ width: fit-content;
  height: calc(100% + 60px);
  .rounded {
   font-style: italic;

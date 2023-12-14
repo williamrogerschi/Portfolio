@@ -11,34 +11,48 @@ font-family: 'Roboto Mono', monospace;
 font-family: 'Source Code Pro', monospace;
 font-family: 'Space Mono', monospace; */
 
-html {
+
+body {
+  margin: 0;
+  padding: 0;
   background-color: #ECE7E1;
 }
 
-body {
-  margin: 0px;
-  padding: 0px;
-  background-color: #ECE7E1;
-  color: #1A1818;
+.main-wrapper {
+  background: #ECE7E1;
+  display: grid;
+  place-content: bottom;
+  justify-content: center;
+
+  @media screen and (max-width: 1200px) {
+  min-height: 100vh;
+  }
 }
 
 .home-wrapper {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+
+  @media screen and (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
 }
 
 .home-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  flex-direction: row;
 
   @media  screen and (max-width: 1200px) {
     display: flex;
     justify-content: center;
     flex-direction: column-reverse;
     align-items: center;
-    height: 50vh;
+    height: 100vh;
   }
 }
 
@@ -72,6 +86,15 @@ p {
   margin-bottom: 1px;
 }
 
+@media screen and (max-width: 1200px) {
+  h2 {
+    font-size: 4vh;
+  }
+  p {
+    font-size: 3vw;
+  }
+}
+
 .main-link {
   animation: animate 3s linear;
 }
@@ -98,6 +121,10 @@ a.link {
     transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
     display: block;
     position: relative;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 10vh;
+    }
 }
 
 .link:hover {
@@ -119,14 +146,15 @@ a.link {
 .side-container {
   display: flex;
   flex-direction: column;
+  padding: 0;
   color: #ECE7E1;
 
   @media  screen and (max-width: 1200px) {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    padding-top: 12px;
-    margin: 0;
+    margin-top: 10px;
+    margin-right: 34vw;
 }
 }
 
@@ -160,7 +188,8 @@ a.side-link {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin: 0 10px
+    margin: 0 10px;
+    font-size: 3.5vw;
 }
 }
 

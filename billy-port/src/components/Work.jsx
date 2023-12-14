@@ -9,6 +9,23 @@ const Work = () => {
             <div className='blog-body'>
                 <div className="blog">
                     <div className="blog-part is-menu">
+                        {/* <a href="/" className="blog-menu">
+                            Home
+                            <svg fill="none" stroke="currentColor" strokeWidth=".7" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-up-right" viewBox="0 0 24 24">
+                                <path d="M7 17L17 7M7 7h10v10" />
+                            </svg>
+                        </a>
+                        <a href='https://github.com/williamrogerschi' target='_blank' className="blog-menu">Github</a>
+                        <a href='https://www.linkedin.com/in/billy-rogers-chi/' target='_blank' className="blog-menu">LinkedIn</a>
+                        <a href="/Contact" className="blog-menu mention">Contact</a>
+                        <li href="#" className="blog-menu subscribe">© Billy Rogers || 2023</li> */}
+                    </div>
+                    <div className="blog-header blog-is-sticky">
+                        <div className="blog-article header-article">
+                            <div className="blog-bigtitle">Self</div>
+                            <div className="blog-menu rounded small-title">Pinned Issue</div>
+                        </div>
+                        <div className="blog-article page-number">
                         <a href="/" className="blog-menu">
                             Home
                             <svg fill="none" stroke="currentColor" strokeWidth=".7" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-up-right" viewBox="0 0 24 24">
@@ -19,13 +36,6 @@ const Work = () => {
                         <a href='https://www.linkedin.com/in/billy-rogers-chi/' target='_blank' className="blog-menu">LinkedIn</a>
                         <a href="/Contact" className="blog-menu mention">Contact</a>
                         <li href="#" className="blog-menu subscribe">© Billy Rogers || 2023</li>
-                    </div>
-                    <div className="blog-header blog-is-sticky">
-                        <div className="blog-article header-article">
-                            <div className="blog-bigtitle">Self</div>
-                            <div className="blog-menu rounded small-title">Pinned Issue</div>
-                        </div>
-                        <div className="blog-article page-number">
                             NO. 01
                         </div>
                     </div>
