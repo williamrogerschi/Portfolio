@@ -11,7 +11,8 @@ const Home = () => {
                     <div className='home-content'>
                         <h2>Billy Rogers</h2>
                         <p>Full-Stack Software Engineer | Cat Dad | Ops</p>
-                        <p>Proficient in: React.js · MongoDB · Mongoose · Express · Bootstrap · Tailwind CSS · Python · Django ·  Node.js · JavaScript · CSS · HTML5 </p>
+                        <p><span className='prof-span'>Proficient in: </span> 
+                        React.js · MongoDB · Mongoose · Express · Bootstrap · Tailwind CSS · Python · Django ·  Node.js · JavaScript · CSS · HTML5 </p>
                     </div>
                         <Nav/>
                 </div>
