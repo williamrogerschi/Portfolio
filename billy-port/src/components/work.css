@@ -19,9 +19,10 @@ font-family: 'Space Mono', monospace; */
     justify-content: center;
 }
 
-.side-container {
+.hn-container {
     background-color: #1A1818;
 }
+
 
 * {
     box-sizing: border-box;

@@ -12,7 +12,7 @@ font-family: 'Source Code Pro', monospace;
 font-family: 'Space Mono', monospace; */
 
 html {
-  background-color:  #ECE7E1;
+  background-color: #ECE7E1;
 }
 
 body {
@@ -84,6 +84,7 @@ p {
 .side-container {
   display: flex;
   flex-direction: column;
+  color: #ECE7E1;
 }
 
 .sidebar {
@@ -95,7 +96,7 @@ p {
 
 a.side-link {
   transform: rotate(270deg);
-  padding: 10px 0px 70px 0px;
+  padding: 40px 0px 70px 0px;
   text-decoration: none;
   color: #1A1818;
   font-family: 'Lexend Tera', sans-serif;
@@ -112,6 +113,7 @@ a.side-link {
 .nav-link {
   text-decoration: none;
   transform: rotate(270deg);
-  padding: 0px 0px 70px 0px;
+  padding: 60px 0px 90px 60px;
   color: #1A1818;
 }
+
