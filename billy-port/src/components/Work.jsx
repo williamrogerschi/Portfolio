@@ -5,7 +5,7 @@ const Work = () => {
 
 
     return (
-        <>
+        <div className='blog-wrapper'>
             <div className='blog-body'>
                 <div className="blog">
 
@@ -28,7 +28,6 @@ const Work = () => {
                             <a href='https://github.com/williamrogerschi' target='_blank' className="blog-menu">Github</a>
                             <a href='https://www.linkedin.com/in/billy-rogers-chi/' target='_blank' className="blog-menu">LinkedIn</a>
                             <div className='footer-nav'>
-                            <a href="/Contact" className="blog-menu mention">Contact</a>
                             <li href="#" className="blog-menu subscribe">© Billy Rogers || 2023</li>
                             </div>
                         </div>
@@ -102,7 +101,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div className="blog-part right-blog">
-                        <marquee width="100%" direction="left">
+                        <marquee loop='3' width="100%" direction="left">
                             <span>Experience is the name everyone gives to their mistakes. – Oscar Wilde</span>
                             <span>Confusion is part of programming. ― Felienne Hermans</span>
                             <span>I’m not a great programmer; I’m just a good programmer with great habits. ― Kent Beck</span>
@@ -171,7 +170,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-        </>
+            </div>
     )
 
 }

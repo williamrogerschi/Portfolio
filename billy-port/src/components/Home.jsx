@@ -5,16 +5,17 @@ import Side from './Side'
 const Home = () => {
     return (
         <div className='main-wrapper'>
-            <Side />
-        <div className='home-wrapper'>
+
+            <div className='home-wrapper'>
+                <Side />
                 <div className='home-container'>
                     <div className='home-content'>
                         <h2>Billy Rogers</h2>
                         <p>Full-Stack Software Engineer | Cat Dad | Ops</p>
-                        <p><span className='prof-span'>Proficient in: </span> 
-                        React.js · MongoDB · Mongoose · Express · Bootstrap · Tailwind CSS · Python · Django ·  Node.js · JavaScript · CSS · HTML5 </p>
+                        <p><span className='prof-span'>Proficient in: </span>
+                            React.js · MongoDB · Mongoose · Express · Bootstrap · Tailwind CSS · Python · Django ·  Node.js · JavaScript · CSS · HTML5 </p>
                     </div>
-                        <Nav/>
+                    <Nav />
                 </div>
             </div>
         </div>
