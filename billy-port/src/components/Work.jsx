@@ -27,9 +27,6 @@ const Work = () => {
                             </a>
                             <a href='https://github.com/williamrogerschi' target='_blank' className="blog-menu">Github</a>
                             <a href='https://www.linkedin.com/in/billy-rogers-chi/' target='_blank' className="blog-menu">LinkedIn</a>
-                            <div className='footer-nav'>
-                            <li href="#" className="blog-menu subscribe">© Billy Rogers || 2023</li>
-                            </div>
                         </div>
                     </div>
                     <div className="blog-header-container">
