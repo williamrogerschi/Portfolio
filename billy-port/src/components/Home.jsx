@@ -3,9 +3,8 @@ import Side from './Side'
 
 
 const Home = () => {
-    return (
-        <div className='main-wrapper'>
-
+    
+return (
             <div className='home-wrapper'>
                 <Side />
                 <div className='home-container'>
@@ -18,7 +17,6 @@ const Home = () => {
                     <Nav />
                 </div>
             </div>
-        </div>
     )
 }
 export default Home
