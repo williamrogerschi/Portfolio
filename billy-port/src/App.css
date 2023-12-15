@@ -44,7 +44,7 @@ html, body {
     justify-content: center;
     flex-direction: column-reverse;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
   }
 }
 
