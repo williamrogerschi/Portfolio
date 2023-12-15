@@ -8,11 +8,10 @@ const Contact = () => {
     return (
         <>
             <HomeNav />
-
             <div className="contact-wrapper">
                 <div className="contact-content">
                     <div className="contact-content-container">
-                    <h1>Hello!</h1>
+                    <h1 className="hello">Hello!</h1>
                         <p className="about-p">A Software Engineer based out of Chicago, IL- looking to make my dreams become a reality!</p>
                         <ul >
                             <li className="li-contact"> Email - william.rogers.chi@gmail.com</li>
