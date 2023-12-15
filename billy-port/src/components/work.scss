@@ -25,25 +25,27 @@ $border-color: #94918f;
 
 .blog-body {
  background-color: $body-bg;
- display: flex;
+//  display: flex;
  font-family: $subtitle-font;
- justify-content: center;
- align-items: center;
- flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//  flex-direction: column;
  width: 100vw;
+ padding: 3em 16em;
  font-weight: 400;
  height: 100vh;
  margin: 0 auto;
 
  @media screen and (max-width: 1200px) {
-height: 90vh;
-  padding: 1em;
+ min-height: 100vh;
+  height: 100vh;
+  padding: 20em 1em;
  }
 }
 
 .blog {
  background-color: $blog-bg;
- max-width: 1350px;
+ max-width: 1800px;
  display: grid;
  height: 90vh;
  max-height: 1000px;
