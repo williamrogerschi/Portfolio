@@ -25,7 +25,8 @@ font-family: 'Space Mono', monospace; */
         min-height: 100vh;
         }
   }
-  
+
+
   .home-link {
       transform: rotate(270deg);
       padding: 10px 0px 70px 0px;
@@ -79,6 +80,7 @@ font-family: 'Space Mono', monospace; */
     width: auto;
     height: 1vh;
   }
+  
   
   .work-content {
     padding-top: 50vh;
