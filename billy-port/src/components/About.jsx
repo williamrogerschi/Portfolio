@@ -11,7 +11,9 @@ const About = () => {
                         <h1 className="about">About</h1>
                         <img className='headshot' src='./billy.jpeg' />
                         </div>
-                        <h3 className="about-h3">Billy Rogers, a creative mind.</h3>
+                        <div className='about-blurb-container'>
+                        <h3 className="about-h3">Versatile software engineer with expertise in the MERN tech stack, complemented by a strong foundation in operations. Skilled in creating dynamic web applications and leveraging RESTful APIs. Key strengths include excellent interpersonal skills for fostering open and effective communication, a natural aptitude for problem-solving, and exceptional attention to detail. Demonstrated ability to thrive under pressure in challenging, multi-functional environments.</h3>
+                        </div>
           
                     <div className='experience-wrapper'>
                         <div className='experience'>
@@ -25,7 +27,7 @@ const About = () => {
                     </div>
 
                     <div className='resume-btn-wrapper'>
-                        <a href='/Resume' type='button' className='resume-btn'>Resume</a>
+                        <a href='https://drive.google.com/file/d/1TA6d3GxuEdSd6F2MXYVBGGBwma55FMzw/view?usp=sharing' target='_blank' type='button' className='resume-btn'>Resume</a>
                     </div>
 
                     <div className='experience-wrapper'>

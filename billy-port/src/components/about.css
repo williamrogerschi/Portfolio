@@ -79,27 +79,30 @@ a.home-link:hover {
 
     @media screen and (max-width: 1200px) {
         min-height: 100vh;
+        margin: 0;
+        padding-right: 12px;;
     }
 }
 
 .about-content-container {
     display: flex;
-    justify-content: baseline;
+    flex-direction: row;
+    width: 100%;
 
     @media screen and (max-width: 1200px) {
+        padding-top: 30px;
         display: flex;
         justify-content: center;
         flex-direction: column-reverse;
     }
 }
 
-
 .about {
     font-family: 'Gayathri', sans-serif;
     font-weight: 400;
     margin: 0;
     padding: 0;
-    font-size: 30vh;
+    font-size: 28vh;
 
     @media screen and (max-width: 1200px) {
         font-size: 20vw;
@@ -121,15 +124,23 @@ a.home-link:hover {
     }
 }
 
+.about-blurb-container {
+    padding-bottom: 20px;
+
+}
+
 .about-h3 {
     font-family: 'MuseoModerno', sans-serif;
     font-weight: 300;
-    font-size: 2vw;
-    margin-top: 0px;
+    font-size: 1vw;
+    max-width: 60%;
+    margin-top: -130px;
     padding: 0;
 
     @media screen and (max-width: 1200px) {
-        font-size: 2.3vh;
+        font-size: 2vw;
+        margin: 0;
+        max-width: 100%;
     }
 }
 
@@ -144,18 +155,20 @@ a.home-link:hover {
     padding-bottom: 20px;
 }
 
+
 .about-exp {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1vw;
+    font-size: 0.75vw;
 
     @media screen and (max-width: 1200px) {
         font-size: 2vw;
     }
 }
 
+
 .content-exp {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1vw;
+    font-size: 0.75vw;
 
     @media screen and (max-width: 1200px) {
         font-size: 2vw;
@@ -190,13 +203,15 @@ a.home-link:hover {
 
 
 .headshot {
-    margin-left: 40px;
+    margin-left: 240px;
     height: 400px;
     width: 300px;
     border-radius: 1px;
 
     @media screen and (max-width: 1200px) {
-        margin-bottom: 10%;
+        display: flex;
+        justify-content: center;
+        margin: 10%;
     }
 }
 
