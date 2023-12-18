@@ -9,8 +9,10 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-content-container">
                         <h1 className="about">About</h1>
+                        <img className='headshot' src='./billy.jpeg' />
+                        </div>
                         <h3 className="about-h3">Billy Rogers, a creative mind.</h3>
-                    </div>
+          
                     <div className='experience-wrapper'>
                         <div className='experience'>
                             <p className='experience-header'>Experience</p>
@@ -38,7 +40,7 @@ const About = () => {
                     </div>
 
                     <div className='resume-btn-wrapper'>
-                        <a href='/Contact' button type='button' className='contact-btn'>Contact</a>
+                        <a href='/Contact' button type='button' className='resume-btn'>Contact</a>
                     </div>
                 </div>
             </div>

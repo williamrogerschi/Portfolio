@@ -22,9 +22,9 @@ a.home-link {
     padding: 10px 0px 70px 0px;
     text-decoration: none;
     color: #1A1818;
-    font-family: 'Lexend Tera', sans-serif;
+    font-family: 'Gayathri', sans-serif;
     font-weight: 200;
-    font-size: 1.5vh;
+    font-size: 2vh;
 
     @media  screen and (max-width: 1200px) {
       transform: none;
@@ -41,9 +41,9 @@ a.home-link:hover {
   padding: 10px 0px 70px 0px;
   text-decoration: line-through;
   color: #1A1818;
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: 'Gayathri', sans-serif;
   font-weight: 300;
-  font-size: 1.5vh;
+  font-size: 2vh;
   
   @media  screen and (max-width: 1200px) {
     transform: none;
@@ -96,7 +96,7 @@ a.home-link:hover {
   }
 
   .hello {
-    animation: animate 5s linear;
+    animation: animate 2s linear;
   }
   
   @keyframes animate {
