@@ -19,6 +19,7 @@ font-family: 'Space Mono', monospace; */
         justify-content: center;
         min-height: 100vh;
         padding: 20px;
+        padding-top: 80px;
     }
 }
 

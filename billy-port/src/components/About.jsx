@@ -26,9 +26,9 @@ const About = () => {
                             loopCount={0}
                             className="text"
                         />
-                    <div className='image-container'>
+                    {/* <div className='image-container'>
                         <img className='headshot' src='./billy.jpeg' />
-                    </div>
+                    </div> */}
                     </div>
                     <div className='about-blurb-container'>
                         <h3 className="about-h3">Versatile software engineer with expertise in the MERN tech stack, complemented by a strong foundation in operations. Skilled in creating dynamic web applications and leveraging RESTful APIs. Key strengths include excellent interpersonal skills for fostering open and effective communication, a natural aptitude for problem-solving, and exceptional attention to detail. Demonstrated ability to thrive under pressure in challenging, multi-functional environments.</h3>

@@ -9,11 +9,15 @@ font-family: 'Space Mono', monospace; */
 
 
 .contact-wrapper {
-  display: grid;
-    height: 100vh;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10%;
+  height: 100vh;
 
     @media screen and (max-width: 1200px) {
-      min-height: 100vh;
+      min-height: 80vh;
       }
 }
 
@@ -121,7 +125,7 @@ a.home-link:hover {
   .about-p {
     font-family: 'MuseoModerno', sans-serif;
     font-weight: 200;
-    font-size: 1.2vw;
+    font-size: 2vh;
     margin-top: -80px;
     padding: 0;
 
@@ -166,10 +170,17 @@ a.home-link:hover {
     font-weight: 300;
     margin: 0;
     padding: 0;
-    font-size:  34vh;
 
     @media screen and (max-width: 1200px) {
       font-size: 34vw;
+    }
+  }
+
+  span {
+    font-size: 40vh;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 40vw;
     }
   }
 
