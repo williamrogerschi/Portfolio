@@ -20,7 +20,7 @@ const Work = () => {
                 </div>
                 <div className='work-list'>
                     <div className="work-container">
-                        <a href="#" className="work-li">Strava API</a>
+                        <a href="https://strava-api.netlify.app/" target='_blank' className="work-li">Strava API</a>
                         {/* <img height={'300px'} width={'400px'} src="./swork.jpeg" /> */}
                         <p className='work-li-p'>Stats.Rides.Community.</p>
                         <p className='work-li-p'>Tech Stack: HTML · CSS · JavaScript</p>
@@ -34,7 +34,7 @@ const Work = () => {
                         <p className='work-li-desc'>For my second project, I created a personalized card builder based off the CCG 'Gwent'. This project was all about making card customization a breeze for Gwent fans. I had alot of fun creating this, and quickly learned later on- that I would be able to streamline this using React.</p>
                     </div>
                     <div className="work-container">
-                        <a href="#" className="work-li">Cocktail Party</a>
+                        <a href="https://cocktail-party-ga.netlify.app/" target='_blank' className="work-li">Cocktail Party</a>
                         {/* <img height={'300px'} width={'400px'} src="./swork.jpeg" /> */}
                         <p className='work-li-p'>What's a party without some cocktails and some recipes...</p>
                         <p className='work-li-p'>Tech Stack: MERN · REST API</p>
