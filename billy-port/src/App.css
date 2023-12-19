@@ -113,7 +113,7 @@ a.link {
   /* transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out; */
   display: block;
   position: relative;
-  animation: letterspacing 2s alternate cubic-bezier(.2, 0, 0, 1);
+  animation: letterspacing 1s alternate cubic-bezier(.2, 0, 0, 1);
   left: 50%;
   top: 50%;
   transform: translate3d(-50%, -50%, 0);

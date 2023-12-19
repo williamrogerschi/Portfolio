@@ -1,20 +1,41 @@
 import HomeNav from './HomeNav'
 import './about.css'
+import Typed from 'react-typed'
 
 const About = () => {
+
+    const onCompleteTyped = (self) => {
+        self.cursor.style.display = 'none'
+    }
+
     return (
         <>
             <HomeNav />
             <div className="about-wrapper">
                 <div className="about-content">
+                    {/* <h1 className="about">About</h1> */}
+                    <div className='about-img-wrapper'>
                     <div className="about-content-container">
-                        <h1 className="about">About</h1>
+                        <Typed
+                            strings={["Aboyut", 'Abo', 'About']}
+                            typeSpeed={160}
+                            backSpeed={70}
+                            backDelay={800}
+                            showCursor={true}
+                            // onComplete={(self) => onCompleteTyped(self)}
+                            cursorChar='|'
+                            loopCount={0}
+                            className="text"
+                        />
+                    </div>
+                    <div className='image-container'>
                         <img className='headshot' src='./billy.jpeg' />
-                        </div>
-                        <div className='about-blurb-container'>
+                    </div>
+                    </div>
+                    <div className='about-blurb-container'>
                         <h3 className="about-h3">Versatile software engineer with expertise in the MERN tech stack, complemented by a strong foundation in operations. Skilled in creating dynamic web applications and leveraging RESTful APIs. Key strengths include excellent interpersonal skills for fostering open and effective communication, a natural aptitude for problem-solving, and exceptional attention to detail. Demonstrated ability to thrive under pressure in challenging, multi-functional environments.</h3>
-                        </div>
-          
+                    </div>
+
                     <div className='experience-wrapper'>
                         <div className='experience'>
                             <p className='experience-header'>Experience</p>

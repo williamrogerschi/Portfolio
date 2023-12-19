@@ -18,6 +18,7 @@ font-family: 'Space Mono', monospace; */
         display: flex;
         justify-content: center;
         min-height: 100vh;
+        padding: 20px;
     }
 }
 
@@ -109,6 +110,15 @@ a.home-link:hover {
     }
 }
 
+span.text {
+    font-size: 30vh;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 20vw;
+    }
+}
+
+/* 
 .about {
     animation: animate 5s linear;
 }
@@ -122,6 +132,14 @@ a.home-link:hover {
         animation-play-state: paused;
         opacity: 1;
     }
+} */
+
+.about-img-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    width: 80%;
 }
 
 .about-blurb-container {
@@ -146,7 +164,7 @@ a.home-link:hover {
 
 
 .headshot {
-    margin-left: 280px;
+    /* margin-left: 200px; */
     height: 400px;
     width: 300px;
     border-radius: 1px;
@@ -195,7 +213,6 @@ a.home-link:hover {
     }
 }
 
-
 .content-exp {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.75vw;
@@ -230,4 +247,5 @@ a.home-link:hover {
     padding-left: 80px;
     padding-right: 80px;
 }
+
 
