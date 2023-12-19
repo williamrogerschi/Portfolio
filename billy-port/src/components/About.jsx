@@ -15,7 +15,6 @@ const About = () => {
                 <div className="about-content">
                     {/* <h1 className="about">About</h1> */}
                     <div className='about-img-wrapper'>
-                    <div className="about-content-container">
                         <Typed
                             strings={["Aboyut", 'Abo', 'About']}
                             typeSpeed={160}
@@ -27,7 +26,6 @@ const About = () => {
                             loopCount={0}
                             className="text"
                         />
-                    </div>
                     <div className='image-container'>
                         <img className='headshot' src='./billy.jpeg' />
                     </div>
