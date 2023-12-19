@@ -27,7 +27,7 @@ const About = () => {
                     </div>
 
                     <div className='resume-btn-wrapper'>
-                        <a href='https://drive.google.com/file/d/1TA6d3GxuEdSd6F2MXYVBGGBwma55FMzw/view?usp=sharing' target='_blank' type='button' className='resume-btn'>Resume</a>
+                        <a href='https://drive.google.com/file/d/1TA6d3GxuEdSd6F2MXYVBGGBwma55FMzw/view?usp=sharing' target='_blank' className='resume-btn'>Resume</a>
                     </div>
 
                     <div className='experience-wrapper'>
@@ -42,7 +42,7 @@ const About = () => {
                     </div>
 
                     <div className='resume-btn-wrapper'>
-                        <a href='/Contact' button type='button' className='resume-btn'>Contact</a>
+                        <a href='/Contact' className='resume-btn'>Contact</a>
                     </div>
                 </div>
             </div>
