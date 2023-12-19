@@ -99,7 +99,7 @@ a.home-link:hover {
 
 .about {
     font-family: 'Gayathri', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0;
     padding: 0;
     font-size: 28vh;
@@ -141,6 +141,36 @@ a.home-link:hover {
         font-size: 2vw;
         margin: 0;
         max-width: 100%;
+    }
+}
+
+
+.headshot {
+    margin-left: 280px;
+    height: 400px;
+    width: 300px;
+    border-radius: 1px;
+
+    @media screen and (max-width: 1200px) {
+        display: flex;
+        justify-content: center;
+        margin: 10%;
+    }
+}
+
+
+.headshot {
+    animation: animate 1s linear;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        animation-play-state: paused;
+        opacity: 1;
     }
 }
 
@@ -201,32 +231,3 @@ a.home-link:hover {
     padding-right: 80px;
 }
 
-
-.headshot {
-    margin-left: 240px;
-    height: 400px;
-    width: 300px;
-    border-radius: 1px;
-
-    @media screen and (max-width: 1200px) {
-        display: flex;
-        justify-content: center;
-        margin: 10%;
-    }
-}
-
-
-.headshot {
-    animation: animate 1s linear;
-}
-
-@keyframes animate {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        animation-play-state: paused;
-        opacity: 1;
-    }
-}
