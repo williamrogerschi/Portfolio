@@ -110,11 +110,11 @@ a.home-link:hover {
     }
 }
 
-span.text {
-    font-size: 30vh;
+span {
+    font-size: 24vh;
 
     @media screen and (max-width: 1200px) {
-        font-size: 20vw;
+        font-size: 30vw;
     }
 }
 
@@ -162,9 +162,19 @@ span.text {
     }
 }
 
+.image-container {
+    position: absolute;
+    margin-left: 900px;
+    padding-right: 20px;
+
+    @media screen and (max-width: 1200px) {
+        padding-right: 40px;
+    }
+}
 
 .headshot {
-    /* margin-left: 200px; */
+    /* position: relative;
+    margin-left: 200px; */
     height: 400px;
     width: 300px;
     border-radius: 1px;

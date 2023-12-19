@@ -149,6 +149,12 @@ h1 {
   -webkit-animation-timing-function: ease-in-out;
   visibility: visible !important;
   animation-delay: none;
+
+  
+  @media screen and (max-width: 1200px) {
+    padding-top: 12px;
+    font-size: 6vh;
+  }
 }
 
 @keyframes fadeIn {
@@ -191,11 +197,6 @@ h1 {
     -webkit-transform: scale(1);
     opacity: 1;
   }
-
-  /* @media screen and (max-width: 1200px) {
-        padding-top: 12px;
-        font-size: 3vh;
-      } */
 }
 
 .work-li:hover {
@@ -227,12 +228,13 @@ h1 {
 p.work-p {
   font-family: 'MuseoModerno', sans-serif;
   font-weight: 200;
-  font-size: 0.9vw;
+  font-size: 1.2vw;
   margin: 0;
   padding: 0;
 
   @media screen and (max-width: 1200px) {
-    font-size: 2.3vh;
+    font-size: 1vh;
+    margin-bottom: 80px;
   }
 }
 
@@ -242,6 +244,10 @@ p.work-p {
   margin: 0;
   padding-bottom: 10px;
   font-size: 2.2vh;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 1vh;
+  }
 }
 
 .work-li-desc {
@@ -250,4 +256,9 @@ p.work-p {
   margin: 0;
   padding-bottom: 10px;
   font-size: 1.7vh;
+
+  @media screen and (max-width: 1200px) {
+    padding-top: 60px;
+    font-size: 1vh;
+  }
 }
