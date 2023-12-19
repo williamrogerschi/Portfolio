@@ -12,7 +12,8 @@ font-family: 'Source Code Pro', monospace;
 font-family: 'Space Mono', monospace; */
 
 
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
   min-height: 100%;
@@ -20,8 +21,8 @@ html, body{
   width: 100%;
   background-color: #ECE7E1;
   color: #1A1818;
-  
-    @media  screen and (max-width:1200px) {
+
+  @media screen and (max-width:1200px) {
     margin: 0;
     padding: 0;
     min-height: 100%;
@@ -37,7 +38,7 @@ html, body{
   flex-direction: row;
   height: auto;
 
-  @media  screen and (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     display: flex;
     justify-content: center;
     flex-direction: column-reverse;
@@ -52,7 +53,7 @@ html, body{
   max-width: 50vw;
   min-width: 120px;
 
-  @media  screen and (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -60,7 +61,7 @@ html, body{
     padding-top: 12px;
     margin: 0;
     min-width: 50vw;
-}
+  }
 }
 
 h2 {
@@ -79,6 +80,7 @@ p {
   h2 {
     font-size: 5vw;
   }
+
   p {
     font-size: 2.6vw;
   }
@@ -89,32 +91,48 @@ p {
 }
 
 @keyframes animate {
-  0% { 
-    opacity: 0; 
+  0% {
+    opacity: 0;
   }
+
   100% {
     animation-play-state: paused;
-     opacity: 1; 
-    }
+    opacity: 1;
+  }
 }
 
 a.link {
-    z-index: 100;
-    font-family: 'Gayathri', sans-serif;
-    color: #1a1818;
-    text-align: left;
-    font-size: 18vh;
-    font-weight: 300;
-    line-height: .95em;
-    text-decoration: none;
-    transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
-    display: block;
-    position: relative;
-    
+  z-index: 100;
+  font-family: 'Gayathri', sans-serif;
+  color: #1a1818;
+  text-align: left;
+  font-size: 24vh;
+  font-weight: 300;
+  line-height: .95em;
+  text-decoration: none;
+  /* transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out; */
+  display: block;
+  position: relative;
+  animation: letterspacing 2s alternate cubic-bezier(.2, 0, 0, 1);
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
 
-    @media screen and (max-width: 1200px) {
-      font-size: 10vh;
-    }
+
+  @media screen and (max-width: 1200px) {
+    font-size: 10vh;
+  }
+}
+
+@keyframes letterspacing {
+  0% {
+    letter-spacing: -5rem;
+    filter: blur(0.5rem);
+  }
+
+  50% {
+    filter: blur(0.5rem);
+  }
 }
 
 .link:hover {
@@ -139,13 +157,13 @@ a.link {
   padding: 0;
   color: #ECE7E1;
 
-  @media  screen and (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     margin-top: 10px;
     margin-right: 34vw;
-}
+  }
 }
 
 .sidebar {
@@ -157,12 +175,12 @@ a.link {
   padding-left: 30px;
 
   @media screen and (max-width: 1200px) {
-      display: flex;
-      flex-direction: row;
-      width: auto; 
-      padding-top: 20px;
-      padding-left: 12px;
-}
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 12px;
+  }
 }
 
 a.side-link {
@@ -174,7 +192,7 @@ a.side-link {
   font-weight: 400;
   font-size: 1vw;
 
-  @media  screen and (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     transform: none;
     padding: 10px 20px;
     display: flex;
@@ -182,7 +200,7 @@ a.side-link {
     flex-direction: row;
     margin: 0 10px;
     font-size: 3.5vw;
-}
+  }
 }
 
 .side-link:hover {
@@ -203,4 +221,3 @@ a.side-link {
   font-weight: 500;
   font-style: italic;
 }
-

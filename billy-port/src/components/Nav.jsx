@@ -13,9 +13,6 @@ function Nav  () {
                 <div className='main-link'>
                     <Link className='link' to='/Contact'>Contact</Link>
                 </div>
-                <div className='main-link'>
-                    <Link className='link' to='/Projects'>Projects</Link>
-                </div>
             </div>
         </div>
     )

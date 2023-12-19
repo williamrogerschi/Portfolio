@@ -1,174 +1,55 @@
-import './work.scss'
+import HomeNav from './HomeNav'
+import { Link } from "react-router-dom"
+import './work.css'
 
 
 const Work = () => {
 
-
     return (
-        <div className='blog-wrapper'>
-            <div className='blog-body'>
-                <div className="blog">
-
-                    <div className='blog-article page-number'>
-                        NO. 01
+        <>
+            <HomeNav />
+            <div className="work-wrapper">
+                <div className="work-content">
+                    <h1>Projects</h1>
+                    <p className="work-p">
+                        "Step into the innovative world of my Software Engineering Immersive journey, where creativity met code! Throughout this transformative bootcamp, I navigated the intricacies of software development, honing my skills to craft diverse and impactful projects. From designing responsive web applications that streamline user experiences to diving deep into backend development for robust functionality, each project reflects my dedication to merging cutting-edge technology with intuitive design. With a focus on collaborative teamwork, problem-solving, and a passion for delivering scalable solutions, my portfolio showcases a dynamic range of projects that demonstrate my growth as a versatile software engineer ready to make a meaningful impact in the tech industry."</p>
+                    <ul >
+                        <li className="li-contact"> Email - william.rogers.chi@gmail.com</li>
+                        <li className="li-contact"> Socials - <Link className="li-link" to='https://github.com/williamrogerschi' target="_blank">GitHub </Link> <Link className="li-link" to='https://www.linkedin.com/in/billy-rogers-chi/' target="_blank">LinkedIn</Link></li>
+                    </ul>
+                </div>
+                <div className='work-list'>
+                    <div className="work-container">
+                        <a href="#" className="work-li">Strava API</a>
+                        {/* <img height={'300px'} width={'400px'} src="./swork.jpeg" /> */}
+                        <p className='work-li-p'>Stats.Rides.Community.</p>
+                        <p className='work-li-p'>Tech Stack: HTML · CSS · JavaScript</p>
+                        <p className='work-li-desc'>This was my first project and we had the choice between building a game or using a restful API. I chose to use an API and wanted to build an APP that would allow a user to login and check their profile, rides, and achievements in a simpler UI than what was currently being offered by Strava.</p>
                     </div>
-
-                    <div className="blog-header blog-is-sticky">
-                        <div className="blog-article header-article">
-                            <div className="blog-bigtitle">Self</div>
-                            <div className="blog-menu rounded small-title">Pinned Issue</div>
-                        </div>
-                        <div className="blog-part is-menu">
-                            <a href="/" className="blog-menu">
-                                Home
-                                <svg fill="none" stroke="currentColor" strokeWidth=".7" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-up-right" viewBox="0 0 24 24">
-                                    <path d="M7 17L17 7M7 7h10v10" />
-                                </svg>
-                            </a>
-                            <a href='https://github.com/williamrogerschi' target='_blank' className="blog-menu">Github</a>
-                            <a href='https://www.linkedin.com/in/billy-rogers-chi/' target='_blank' className="blog-menu">LinkedIn</a>
-                        </div>
+                    <div className="work-container">
+                        <a href="#" className="work-li">Gwent CCG</a>
+                        {/* <img height={'300px'} width={'400px'} src="./swork.jpeg" /> */}
+                        <p className='work-li-p'>Gwent Custom Card Generator</p>
+                        <p className='work-li-p'>Tech Stack: HTML · CSS Javascript · Mongoose · Express</p>
+                        <p className='work-li-desc'>For my second project, I created a personalized card builder based off the CCG 'Gwent'. This project was all about making card customization a breeze for Gwent fans. I had alot of fun creating this, and quickly learned later on- that I would be able to streamline this using React.</p>
                     </div>
-                    <div className="blog-header-container">
-                        <div className="blog-header">
-                            <div className="blog-article header-article">
-                                <div className="blog-bigtitle">Practice</div>
-                                <div className="blog-menu small-title date">12.03.2023</div>
-                            </div>
-                            <div className="blog-article">
-                                <img src="./strava.jpeg" alt="" />
-                                <h2>Strava <span>API</span> Stats - Rides - Community</h2>
-                                <div className="blog-detail">
-                                    <span>By Billy Rogers</span>
-                                    <span>3 Min Read</span>
-                                </div>
-                                <p>This was my first project and we had the choice between building a game or using a restful API. I chose to use an API and wanted to build an APP that would allow a user to login and check their profile, rides, and achievements in a simpler UI than what was currently being offered by Strava.</p>
-                                <a href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-corner-down-right" viewBox="0 0 24 24">
-                                        <path d="M15 10l5 5-5 5" />
-                                        <path d="M4 4v7a4 4 0 004 4h12" />
-                                    </svg>
-                                    See More
-                                </a>
-                            </div>
-                        </div>
-                        <div className="blog-header">
-                            <div className="blog-article header-article">
-                                <div className="blog-bigtitle">Control</div>
-                                <div className="blog-menu small-title date">12.06.2021</div>
-                            </div>
-                            <div className="blog-article">
-                                <img src="./Gwent.webp" alt="" />
-                                <h2>Gwent <span>CCG</span> Builder</h2>
-                                <div className="blog-detail">
-                                    <span>By Billy Rogers</span>
-                                    <span>4 Min Read</span>
-                                </div>
-                                <p>For my second project, I created a personalized card builder based off the CCG 'Gwent'. This project was all about making card customization a breeze for Gwent fans. I had alot of fun creating this, and quickly learned later on- that I would be able to streamline this using React.</p>
-                                <a href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-corner-down-right" viewBox="0 0 24 24">
-                                        <path d="M15 10l5 5-5 5" />
-                                        <path d="M4 4v7a4 4 0 004 4h12" />
-                                    </svg>
-                                    See More
-                                </a>
-                            </div>
-                        </div>
-                        <div className="blog-header">
-                            <div className="blog-article header-article">
-                                <div className="blog-bigtitle">Love</div>
-                                <div className="blog-menu small-title date">12.06.2021</div>
-                            </div>
-                            <div className="blog-article">
-                                <img src="./swork.jpeg" alt="" />
-                                <h2>Bike <span>Labs</span> Bike Builder</h2>
-                                <div className="blog-detail">
-                                    <span>By Billy Rogers</span>
-                                    <span>6 Min Read</span>
-                                </div>
-                                <p>Imagine a platform where bike lovers can log in, check out different bike builds, and even create their own from scratch. I made it happen! With the MERN stack, I created an easy-to-use app that allowed users to log in, explore existing bike builds, and design their own with all the bells and whistles. Thjis was a hub for cyclists to discover, build, and share their passion for bikes. This project was my capstone and I showcased my skills for both frontend and backend magic. By having full CRUD across the app. </p>
-                                <a href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-corner-down-right" viewBox="0 0 24 24">
-                                        <path d="M15 10l5 5-5 5" />
-                                        <path d="M4 4v7a4 4 0 004 4h12" />
-                                    </svg>
-                                    See More
-                                </a>
-                            </div>
-                        </div>
+                    <div className="work-container">
+                        <a href="#" className="work-li">Cocktail Party</a>
+                        {/* <img height={'300px'} width={'400px'} src="./swork.jpeg" /> */}
+                        <p className='work-li-p'>What's a party without some cocktails and some recipes...</p>
+                        <p className='work-li-p'>Tech Stack: MERN · REST API</p>
+                        <p className='work-li-desc'>Cocktail Party, a hackathon project, uses React to tap into a cocktail recipe API. I focused on perfecting React mapping and rendering cards to create a user-friendly interface. The aim was simple: help users effortlessly discover cocktail recipes by browsing, searching, and filtering within the app. This project refined my API integration skills and showcased an easy-to-use platform for cocktail enthusiasts.</p>
                     </div>
-                    <div className="blog-part right-blog">
-                        <marquee loop='3' width="100%" direction="left">
-                            <span>Experience is the name everyone gives to their mistakes. – Oscar Wilde</span>
-                            <span>Confusion is part of programming. ― Felienne Hermans</span>
-                            <span>I’m not a great programmer; I’m just a good programmer with great habits. ― Kent Beck</span>
-                        </marquee>
-                        <div className="blog-right-title-container">
-                            <div className="blog-right-title">
-                                Featured Articles
-                            </div>
-                            <div className="blog-menu rounded">See All</div>
-                        </div>
-                        <div className="blog-right">
-                            <div className="blog-right-container">
-                                <div className="blog-title-date">
-                                    <div className="blog-right-page">1</div>
-                                    <div className="date">9.17.2023</div>
-                                </div>
-                                <div className="blog-right-page-title">HTML / CSS / JavaScript</div>
-                                <div className="blog-right-page-subtitle">First week(s) of the SEI bootcamp. Learning the core fundamentals of html, css, and js. Also learning how to navigate GitHub and use VScode.</div>
-                            </div>
-                            <div className="blog-right-container">
-                                <div className="blog-title-date">
-                                    <div className="blog-right-page">2</div>
-                                    <div className="date">12.06.2021</div>
-                                </div>
-                                <div className="blog-right-page-title">Introspective Lyrics and Beats</div>
-                                <div className="blog-right-page-subtitle">When we toured Scotland we stopped at several selft-sealing hpuses because hotels would</div>
-                            </div>
-                            <div className="blog-right-container">
-                                <div className="blog-title-date">
-                                    <div className="blog-right-page">3</div>
-                                    <div className="date">12.06.2021</div>
-                                </div>
-                                <div className="blog-right-page-title">The Language Of Gris: Comples Beauty Of Monochrome</div>
-                                <div className="blog-right-page-subtitle">The interior concept was conceived of by Dutch archtitect Studio Anne Holtrop who cleverly emulated</div>
-                            </div>
-                            <div className="blog-right-container">
-                                <div className="blog-title-date">
-                                    <div className="blog-right-page">4</div>
-                                    <div className="date">12.06.2021</div>
-                                </div>
-                                <div className="blog-right-page-title">A24 IS LAUNCHING ITS OWN BEAUTY BRAND</div>
-                                <div className="blog-right-page-subtitle">Blonde received widespread acclaim, with critics praising Ocean's introspective lyrics and the album's</div>
-                            </div>
-                            <div className="blog-right-container">
-                                <div className="blog-title-date">
-                                    <div className="blog-right-page">5</div>
-                                    <div className="date">12.06.2021</div>
-                                </div>
-                                <div className="blog-right-page-title">Elon Musk's SpaceX is launching a moon satellite</div>
-                                <div className="blog-right-page-subtitle">The interior concept was conceived of by Dutch archtitect Studio Anne Holtrop who cleverly emulated</div>
-                            </div>
-                            <div className="blog-right-container">
-                                <div className="blog-title-date">
-                                    <div className="blog-right-page">6</div>
-                                    <div className="date">12.06.2021</div>
-                                </div>
-                                <div className="blog-right-page-title">What Happens When You Leave Your Old life Behind</div>
-                                <div className="blog-right-page-subtitle">The interior concept was conceived of by Dutch archtitect Studio Anne Holtrop who cleverly emulated</div>
-                            </div>
-                            <div className="circle">
-                                <div className="circle-title">Leave Your Old Life Behind</div>
-                                <div className="circle-subtitle">Don't try to be like someone else, be yourself. Be secure with yourself.</div>
-                                <div className="circle-footer">Explore</div>
-                            </div>
-                        </div>
+                    <div className="work-container">
+                        <a href="#" className="work-li">Bike Labs</a>
+                        {/* <img height={'300px'} width={'400px'} src="./swork.jpeg" /> */}
+                        <p className='work-li-p'>A bicycle created in `THE LAB`.</p>
+                        <p className='work-li-p'>Tech Stack: MERN ·  Bootstrap ·  MongoDB</p>
+                        <p className='work-li-desc'>Imagine a platform where bike lovers can log in, check out different bike builds, and even create their own from scratch. I made it happen! With the MERN stack, I created an easy-to-use app that allowed users to log in, explore existing bike builds, and design their own with all the bells and whistles. Thjis was a hub for cyclists to discover, build, and share their passion for bikes. This project was my capstone and I showcased my skills for both frontend and backend magic. By having full CRUD across the app.</p>
                     </div>
                 </div>
             </div>
-            </div>
+        </>
     )
-
 }
 export default Work
