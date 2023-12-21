@@ -91,7 +91,6 @@ a.home-link:hover {
   }
 }
 
-  
   .hello{
     font-family: 'Syne', sans-serif; 
     font-weight: 400;
@@ -106,6 +105,7 @@ a.home-link:hover {
 
   .hello {
     animation: animate 2s linear;
+    font-family: 'Gayathri', sans-serif;
   }
   
   @keyframes animate {
