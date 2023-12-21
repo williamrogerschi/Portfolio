@@ -193,7 +193,7 @@ span.text {
 }
 
 .about-blurb-container {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
 
@@ -353,8 +353,8 @@ span.about-exp {
     font-family: 'MuseoModerno', sans-serif;
     font-weight: 200;
     text-decoration: none;
-    background-color: #1A1818;
-    color: #ECE7E1;
+    background-color: var(--light-button-bg);
+    color: var(--light-button-color);
     border: none;
     border-radius: 50px;
     padding: 10px 30px;
@@ -363,12 +363,17 @@ span.about-exp {
 
 .resume-btn:hover {
     font-family: 'MuseoModerno', sans-serif;
-    background-color: #1A1818;
-    color: #ECE7E1;
+    background-color: var(--light-button-bg);
+    color: var(--light-button-color);
     border: none;
     border-radius: 50px;
     padding-left: 80px;
     padding-right: 80px;
 }
 
+[data-theme='dark'] .resume-btn,
+[data-theme='dark'] .resume-btn:hover {
+  background-color: var(--dark-button-bg);
+  color: var(--dark-button-color);
+}
 

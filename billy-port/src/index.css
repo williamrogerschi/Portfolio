@@ -14,6 +14,8 @@ color: #1A1818; - black
     --background-image: url('./dark.png') ;
     --light-link-color:#252422;
     --dark-link-color: #E9D3D0; 
+    --light-button-bg: #252422;
+    --light-button-color: #E9D3D0;
   }
   
   [data-theme='dark'] {
@@ -22,6 +24,8 @@ color: #1A1818; - black
     --toggle-bg: #D64550;
     --toggle-fg: #1C2826;
     --background-image: url('./day-and-night.png');
+    --dark-button-bg: #E9D3D0; 
+    --dark-button-color: #252422;
   }
 
   [data-theme='dark'] a {
