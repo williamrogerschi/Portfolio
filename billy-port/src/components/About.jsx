@@ -34,8 +34,7 @@ const About = () => {
                             <p className='experience-header'>Experience</p>
                         </div>
                         <div className='experience-content'>
-                            <span className='about-exp'>- General Assembly | </span> <span className='about-exp'>September 2023 - December 2023 | Remote</span>
-                            <p className='content-exp'>- Certificate of completion for Software Engineering Immersive 12 week bootcamp.</p>
+                            <span className='about-exp'>- Certificate of completion for Software Engineering Immersive 12 week bootcamp from General Assembly  | </span> <span className='about-exp'>December 2023</span>
                             <p className='content-exp'>- Degree in Business Administration from Northeastern Illinois University | Graduated May 2021</p>
                         </div>
                     </div>

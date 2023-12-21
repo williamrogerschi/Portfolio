@@ -25,7 +25,6 @@
     background-color: var(--toggle-bg);
     margin-right: 0.5em;
     transition: background-color 500ms ease-in-out;
-    
 }
 
 .toggle + label::after {

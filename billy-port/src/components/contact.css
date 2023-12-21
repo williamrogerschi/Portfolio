@@ -17,7 +17,7 @@ font-family: 'Space Mono', monospace; */
   height: 100vh;
 
     @media screen and (max-width: 1200px) {
-      height: 80vh;
+      min-height: 100vh;
       padding-left: 10px;
       }
 }
@@ -91,6 +91,14 @@ a.home-link:hover {
   }
 }
 
+.contact-content-container {
+
+
+  @media screen and (max-width: 1200px) {
+    padding: 0vw 5vw;
+  }
+}
+
   .hello{
     font-family: 'Syne', sans-serif; 
     font-weight: 400;
@@ -99,6 +107,8 @@ a.home-link:hover {
     font-size:  40vh;
 
     @media screen and (max-width: 1200px) {
+      display: flex;
+      justify-content: start;
       font-size: 30vw;
     }
   }

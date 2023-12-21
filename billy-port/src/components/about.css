@@ -31,7 +31,7 @@ font-family: 'Space Grotesk', sans-serif; */
         justify-content: center;
         min-height: 100vh;
         width: fit-content;
-        padding: 20px;
+        padding: 5vw;
         padding-top: 80px;
     }
 }
@@ -217,7 +217,7 @@ span.text {
     
     @media screen and (max-width: 1200px) {
         padding-top: 60px;
-        font-size: 2vw;
+        font-size: 1.6vh;
         margin: 0;
         max-width: 100%;
     }
@@ -244,6 +244,10 @@ span.text {
 
     @media screen and (max-width: 1200px) {
         margin: 10%;
+        padding-top: 4vw;
+        height: 266px;
+    width: 200px;
+    border-radius: 1px;
     }
 }
 

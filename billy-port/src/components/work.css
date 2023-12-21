@@ -120,6 +120,14 @@ h1 {
   }
 }
 
+.projects{
+
+  @media screen and (max-width: 1200px) {
+    display: flex;
+    justify-content: start;
+  }
+}
+
 .work-list {
   margin: 20px auto;
   padding-top: 60px;
