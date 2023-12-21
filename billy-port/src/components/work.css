@@ -1,18 +1,24 @@
-/* font-family: 'Gayathri', sans-serif;
+/* font-family: 'Smythe', sans-serif;
+font-family: 'Gayathri', sans-serif;
 font-family: 'Lexend Tera', sans-serif;
 font-family: 'Metrophobic', sans-serif;
 font-family: 'Montserrat', sans-serif;
-font-family: 'Montserrat Alternates', sans-serif;
 font-family: 'MuseoModerno', sans-serif;
 font-family: 'Playfair Display', serif;
-font-family: 'Space Mono', monospace; */
-
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Space Mono', monospace;
+font-family: 'IBM Plex', sans;
+font-family: 'IBM Plex', monospace;
+font-family: 'Space Grotesk', sans-serif;
+font-family: 'Syne', sans-serif; */
 
 
 .work-wrapper {
   display: flex;
   flex-direction: row;
-  display: flex;
   justify-content: center;
   padding: 0;
   margin: 0;
@@ -26,6 +32,7 @@ font-family: 'Space Mono', monospace; */
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
+    padding: 4%;
   }
 }
 
@@ -100,23 +107,22 @@ font-family: 'Space Mono', monospace; */
 }
 
 h1 {
+  display: flex;
+  justify-content: start;
   font-family: 'Gayathri', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
   padding: 0;
-  font-size: 3vw;
+  font-size: 12vh;
 
   @media screen and (max-width: 1200px) {
     display: flex;
     justify-content: center;
-    font-size: 16vw;
+    font-size: 12vh;
   }
 }
 
 .work-list {
-  font-family: 'Gayathri', sans-serif;
-  font-style: italic;
-  font-weight: 100;
   margin: 20px auto;
   padding-top: 60px;
   max-width: 40%;
@@ -136,8 +142,9 @@ h1 {
   font-family: 'Gayathri', sans-serif;
   font-style: normal;
   list-style: none;
+  font-weight: 100;
   text-decoration: none;
-  font-size: 6vw;
+  font-size: 10vh;
   color: #1a1818;
   padding-top: 12px;
   margin-bottom: -20px;
@@ -152,6 +159,7 @@ h1 {
 
   
   @media screen and (max-width: 1200px) {
+    animation: none;
     padding-top: 12px;
     font-size: 6vh;
   }
@@ -204,13 +212,12 @@ h1 {
   font-style: italic;
   list-style: none;
   text-decoration: none;
-  font-size: 6vw;
+  font-size: 10vh;
   color: #1a1818;
   padding-top: 12px;
 
   @media screen and (max-width: 1200px) {
-    padding-top: 12px;
-    font-size: 3vh;
+    font-size: 6vh;
   }
 }
 
@@ -228,25 +235,26 @@ h1 {
 p.work-p {
   font-family: 'MuseoModerno', sans-serif;
   font-weight: 200;
-  font-size: 1.2vw;
+  font-size: 2vh;
   margin: 0;
-  padding: 0;
+  padding-top: 12px;
+  padding-bottom: 4px;
 
   @media screen and (max-width: 1200px) {
-    font-size: 1vh;
+    font-size: 2vh;
     margin-bottom: 80px;
   }
 }
 
 .work-li-p {
+  font-family: 'IBM Plex', monospace; 
   font-family: 'Space Mono', monospace;
   font-style: normal;
   margin: 0;
-  padding-bottom: 10px;
   font-size: 2.2vh;
 
   @media screen and (max-width: 1200px) {
-    font-size: 1vh;
+    font-size: 2vh;
   }
 }
 
@@ -254,11 +262,12 @@ p.work-p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   margin: 0;
-  padding-bottom: 10px;
-  font-size: 1.7vh;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 2vh;
 
   @media screen and (max-width: 1200px) {
     padding-top: 60px;
-    font-size: 1vh;
+    font-size: 2vh;
   }
 }

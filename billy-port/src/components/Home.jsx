@@ -3,10 +3,10 @@ import Side from './Side'
 
 
 const Home = () => {
-    
-return (
-    <>
-    <Side />
+
+    return (
+        <section>
+            <Side />
             <div className='home-wrapper'>
                 <div className='home-container'>
                     <div className='home-content'>
@@ -18,7 +18,7 @@ return (
                     <Nav />
                 </div>
             </div>
-            </>
+        </section>
     )
 }
 export default Home
