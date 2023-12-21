@@ -13,7 +13,11 @@ font-family: 'Space Mono', monospace;
 font-family: 'IBM Plex', sans;
 font-family: 'IBM Plex', monospace;
 font-family: 'Space Grotesk', sans-serif; */
-
+.App {
+  background-color: var(--background);
+  color: var(--primary-text-color);
+  transition: background-color 0.25s ease-in-out;
+}
 
 .about-wrapper {
     display: flex;
@@ -36,7 +40,6 @@ a.home-link {
     transform: rotate(270deg);
     padding: 10px 0px 70px 0px;
     text-decoration: none;
-    color: #1A1818;
     font-family: 'Lexend Tera', sans-serif;
     font-weight: 200;
     font-size: 1.5vh;
@@ -55,7 +58,6 @@ a.home-link:hover {
     transform: rotate(270deg);
     padding: 10px 0px 70px 0px;
     text-decoration: line-through;
-    color: #1A1818;
     font-family: 'Lexend Tera', sans-serif;
     font-weight: 300;
     font-size: 1.5vh;

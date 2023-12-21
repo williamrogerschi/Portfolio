@@ -1,0 +1,43 @@
+/* background-color: #ECE7E1; - lauren
+color: #1A1818; - black
+#CCC5B9; - timbeerwolf
+#FFFCF2 - floral white
+#E9D3D0; - misty rose
+#403D39; - black olive
+#252422; - eerie black */
+
+:root {
+    --background: #E9D3D0; 
+    --primary-text-color: #252422;
+    --toggle-bg: #1C2826;
+    --toggle-fg: #D64550;
+    --background-image: url('./dark.png') ;
+    --light-link-color:#252422;
+    --dark-link-color: #E9D3D0; 
+  }
+  
+  [data-theme='dark'] {
+    --background: #252422;
+    --primary-text-color: #E9D3D0; 
+    --toggle-bg: #D64550;
+    --toggle-fg: #1C2826;
+    --background-image: url('./day-and-night.png');
+  }
+
+  [data-theme='dark'] a {
+    color: var(--dark-link-color); /* Link color in dark mode */
+  }
+  
+  a {
+    color: var(--light-link-color); /* Default link color for light mode */
+  }
+
+  [data-theme='dark'] a:hover {
+    color: var(--dark-link-color); /* Link color in dark mode */
+  }
+  
+  a {
+    color: var(--light-link-color); /* Default link color for light mode */
+  }
+  
+  

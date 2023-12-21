@@ -1,30 +1,28 @@
 import React, { createContext, useState } from 'react'
-import ReactSwitch from 'react-switch'
 import Main from './components/Main'
 import './App.css'
+import Toggle from './components/Toggle'
+import useLocalStorage from 'use-local-storage'
 
 
-export const ThemeContext = createContext('null')
+
 
 function App() {
 
-  const [theme, setTheme] = useState('light')
-
-  const toggleTheme = () => {
-    setTheme((curr) => (curr === 'light' ? 'dark' : 'light'))
-  }
+  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+  const [isDark, setIsDark] = useLocalStorage('isDark', defaultDark)
 
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div className='App' id={theme}>
-        <Main />
-        <div className='switch'>
-          <label> {theme === 'light' ? 'light mode' : 'dark mode'}</label>
-          <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'}/>
-        </div>
-      </div>
-    </ThemeContext.Provider>
+
+    <div className='App' data-theme={isDark ? 'dark' : 'light'}>
+      <Toggle
+        isChecked={isDark}
+        handleChange={() => setIsDark(!isDark)}
+      />
+      <Main />
+    </div>
+
   )
 }
 

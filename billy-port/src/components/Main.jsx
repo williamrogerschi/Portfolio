@@ -13,7 +13,6 @@ function Main () {
                 <Route path='/Work' element={<Work/>} />
                 <Route path='/About' element={<About/>} />
                 <Route path='/Contact' element={<Contact/>}/>
-
             </Routes>
         </div>
     )

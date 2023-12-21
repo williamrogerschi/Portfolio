@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import HomeNav from './HomeNav'
 import './about.css'
-// import Typed from 'react-typed'
 
 const About = () => {
 
