@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import HomeNav from "./HomeNav"
 import './contact.css'
-// import Typed from 'react-typed'
+import Typed from 'react-typed'
 
 
 
@@ -18,7 +18,7 @@ const Contact = () => {
             <div className="contact-wrapper">
                 <div className="contact-content">
                     <div className="contact-content-container">
-                            {/* <Typed
+                            <Typed
                                     strings={["Hello.", '', 'Hello!']}
                                     typeSpeed={160}
                                     backSpeed={100}
@@ -28,7 +28,7 @@ const Contact = () => {
                                     cursorChar='|'
                                     loopCount={0}
                                     className="text"
-                                /> */}
+                                />
                               <div className="hello">
                                 <h1 className="hello">Hello!</h1>
                                 </div>  
