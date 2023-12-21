@@ -9,8 +9,9 @@ const Work = () => {
         <>
             <HomeNav />
             <div className="work-wrapper">
+                <div className= "work-content-wrapper">
                 <div className="work-content">
-                    <h1 className="projects">Projects</h1>
+                    <h1>Projects</h1>
                     <p className="work-p">
                         Step into the innovative world of my Software Engineering Immersive journey, where creativity met code! Throughout this transformative bootcamp, I navigated the intricacies of software development, honing my skills to craft diverse and impactful projects. From designing responsive web applications that streamline user experiences to diving deep into backend development for robust functionality, each project reflects my dedication to merging cutting-edge technology with intuitive design. With a focus on collaborative teamwork, problem-solving, and a passion for delivering scalable solutions, my portfolio showcases a dynamic range of projects that demonstrate my growth as a versatile software engineer ready to make a meaningful impact in the tech industry.</p>
                     <ul >
@@ -47,6 +48,7 @@ const Work = () => {
                         <p className='work-li-p'>Tech Stack: MERN ◍  Bootstrap ◍ MongoDB</p>
                         <p className='work-li-desc'>Imagine a platform where bike lovers can log in, check out different bike builds, and even create their own from scratch. I made it happen! With the MERN stack, I created an easy-to-use app that allowed users to log in, explore existing bike builds, and design their own with all the bells and whistles. Thjis was a hub for cyclists to discover, build, and share their passion for bikes. This project was my capstone and I showcased my skills for both frontend and backend magic. By having full CRUD across the app.</p>
                     </div>
+                </div>
                 </div>
             </div>
         </>

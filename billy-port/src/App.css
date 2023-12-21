@@ -20,6 +20,12 @@ font-family: 'Syne', sans-serif; */
   background-color: var(--background);
   color: var(--primary-text-color);
   transition: background-color 0.5s ease-in-out;
+  width: 100%;
+
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+    
+  }
 }
 
 
