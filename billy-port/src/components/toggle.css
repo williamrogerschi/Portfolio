@@ -15,7 +15,18 @@
     font-size: 1.5em;
     cursor: pointer;
     color: var(--primary-text-color);
+
+    @media screen and (max-width: 1200px) {
+        font-size: 2.5vh;
+    }
 }
+
+
+.toggle-img {
+    height: 2em;
+    width: 2em;
+}
+
 
 .toggle + label::before {
     content: '';
@@ -41,4 +52,3 @@
 .toggle:checked + label::after {
     transform: translateX(100%);
 }
-

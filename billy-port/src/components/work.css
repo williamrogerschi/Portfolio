@@ -111,9 +111,8 @@ font-family: 'Syne', sans-serif; */
   width: 50%;
   margin: 0 auto; */
   position: fixed;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
-  padding-top: 20%;
   width: 50%;
   margin: 0;
   left: 3%;

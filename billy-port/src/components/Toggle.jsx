@@ -23,7 +23,7 @@ function Toggle ( {handleChange, isChecked})  {
             checked={isChecked}
             />
             <label htmlFor='check' className={`image-transition ${!imageLoaded ? 'hidden' : ''}`}>
-                <img height='50em' width='50em' src={changeImage()} alt={isChecked ? 'Day and Night Icon' : 'Dark Mode Icon'} /></label>
+                <img className='toggle-img' src={changeImage()} alt={isChecked ? 'Day and Night Icon' : 'Dark Mode Icon'} /></label>
         </div>
     )
 
