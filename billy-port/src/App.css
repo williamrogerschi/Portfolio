@@ -15,20 +15,6 @@ font-family: 'IBM Plex', monospace;
 font-family: 'Space Grotesk', sans-serif;
 font-family: 'Syne', sans-serif; */
 
-
-.App {
-  background-color: var(--background);
-  color: var(--primary-text-color);
-  transition: background-color 0.5s ease-in-out;
-  width: 100%;
-
-  /* @media screen and (max-width: 1200px) {
-    width: 100%;
-    
-  } */
-}
-
-
 html,
 body {
   margin: 0;
@@ -38,15 +24,35 @@ body {
   width: auto;
   background-color: var(--background);
   color: var(--primary-text-color);
-  /* color: #1A1818; */
+  overflow-x: hidden;
 
-  @media screen and (max-width:1200px) {
+  /* @media screen and (max-width:1200px) {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-  }
+    height: auto;
+  } */
 }
 
+.App {
+  /* background-color: var(--background);
+  color: var(--primary-text-color);
+  transition: background-color 0.5s ease-in-out;
+  width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Ensure App takes the full viewport height */
+  background-color: var(--background);
+  color: var(--primary-text-color);
+  transition: background-color 0.5s ease-in-out;
+  width: 100%;
+
+  @media screen and (max-width: 1200px) {
+    height: auto;
+    
+  }
+}
 
 .home-container {
   display: flex;
@@ -55,6 +61,9 @@ body {
   align-items: center;
   flex-direction: row;
   height: auto;
+  flex-grow: 1; /* Fill remaining space in App container */
+  width: 100%;
+  max-width: 100%;
 
   @media screen and (max-width: 1200px) {
     display: flex;
@@ -167,7 +176,7 @@ a.link {
     display: flex;
     justify-content: start;
     padding-top: 5vh;
-    padding-left: 5vh
+    padding-left: 2.5vh
   }
 }
 
