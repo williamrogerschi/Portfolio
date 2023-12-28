@@ -9,7 +9,6 @@ font-family: 'Space Mono', monospace; */
 
 
 .contact-wrapper {
-
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -17,6 +16,7 @@ font-family: 'Space Mono', monospace; */
   height: 100vh;
 
     @media screen and (max-width: 1200px) {
+      height: auto;
       min-height: 100vh;
       padding-left: 10px;
       }
@@ -87,7 +87,9 @@ a.home-link:hover {
 
 
   @media screen and (max-width: 1200px) {
-    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin-top: 10vh;
   }
 }
 
@@ -152,6 +154,7 @@ a.home-link:hover {
   .li-contact {
     font-style: normal;
     list-style: none;
+    font-size: 1.8vh;
   
     @media screen and (max-width: 1200px) {
       padding-top: 12px;
@@ -165,6 +168,11 @@ a.home-link:hover {
     color: #1A1818;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 1.8vh;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 3vh;
+    } 
   }
   
   .li-link:hover {
