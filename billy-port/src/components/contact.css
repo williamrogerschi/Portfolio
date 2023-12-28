@@ -14,11 +14,13 @@ font-family: 'Space Mono', monospace; */
   align-items: center;
   padding-left: 10%;
   height: 100vh;
+  width: 100%;
 
     @media screen and (max-width: 1200px) {
       height: auto;
       min-height: 100vh;
       padding-left: 10px;
+      width: auto;
       }
 }
 
@@ -90,11 +92,11 @@ a.home-link:hover {
     display: grid;
     place-items: center;
     margin-top: 10vh;
+
   }
 }
 
 .contact-content-container {
-
 
   @media screen and (max-width: 1200px) {
     padding: 0vw 5vw;
