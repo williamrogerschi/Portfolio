@@ -8,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "watch-css": "node-sass src/ -o src/",
-    "start": "npm run watch-css && npm start",
+    "start": "npm start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
