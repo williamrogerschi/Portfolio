@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react'
+import React from 'react'
 import Main from './components/Main'
 import './App.css'
 import Toggle from './components/Toggle'
@@ -11,7 +11,6 @@ function App() {
 
   const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches
   const [isDark, setIsDark] = useLocalStorage('isDark', defaultDark)
-  // const [isDark, setIsDark] = useState('isDark', defaultDark)
 
 
   return (
