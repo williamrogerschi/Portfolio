@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import HomeNav from './HomeNav'
+import { Link } from 'react-router-dom'
 import './about.css'
 
 const About = () => {
@@ -55,7 +56,8 @@ const About = () => {
                     </div>
 
                     <div className='resume-btn-wrapper'>
-                        <a href='/Contact' className='resume-btn'>Contact</a>
+                    <Link className='resume-btn' to='/Contact'>Contact</Link>
+                        {/* <a href='/Contact' className='resume-btn'>Contact</a> */}
                     </div>
                 </div>
             </div>

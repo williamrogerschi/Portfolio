@@ -166,7 +166,6 @@ h1 {
   font-weight: 100;
   text-decoration: none;
   font-size: 10vh;
-  color: #1a1818;
   padding-top: 12px;
   margin-bottom: -20px;
   animation-name: fadeIn;
@@ -231,10 +230,11 @@ h1 {
 
 .work-li:hover {
   font-family: 'Gayathri', sans-serif;
-  font-style: italic;
+  /* font-style: italic; */
+  font-size: 11vh;
+  transition: font-size 500ms ease 0s;
   list-style: none;
   text-decoration: none;
-  font-size: 10vh;
   padding-top: 12px;
 
   @media screen and (max-width: 1200px) {
@@ -247,8 +247,8 @@ h1 {
   justify-content: justify;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 10px;
-  margin-bottom: 24px;
+  padding: 1rem;
+  margin-bottom: 48px;
   border: 1px solid;
   border-radius: 5px;
   min-width: 75%;
@@ -262,7 +262,7 @@ h1 {
 .work-container:hover{
   border-radius: 5px;
 	box-shadow: -6px 6px 1px 0px;
-  transition: box-shadow 400ms ease 0s, transform 400ms ease 0s;
+  transition: box-shadow 300ms ease 0s, transform 300ms ease 0s;
   transform: translate(4px, -4px);
 }
 
@@ -300,8 +300,6 @@ p.work-p {
   margin-top: 40px;
   margin-bottom: 40px;
   font-size: 2vh;
-  border-bottom: 2px dotted;
-  border-top: 2px dotted;
   padding: 6px 0px;
 
   @media screen and (max-width: 1200px) {
