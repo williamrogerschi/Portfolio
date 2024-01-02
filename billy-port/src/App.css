@@ -31,9 +31,6 @@ body {
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   min-height: 100vh;
   background-color: var(--background);
   color: var(--primary-text-color);

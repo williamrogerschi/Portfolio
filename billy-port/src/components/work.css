@@ -55,7 +55,6 @@ font-family: 'Syne', sans-serif; */
   transform: rotate(270deg);
   padding: 10px 0px 70px 0px;
   text-decoration: none;
-  color: #ECE7E1;
   font-family: 'Lexend Tera', sans-serif;
   font-weight: 200;
   font-size: 1.5vh;
@@ -106,10 +105,6 @@ font-family: 'Syne', sans-serif; */
 }
 
 .work-content {
-  /* position: fixed;
-  padding-top: 20%;
-  width: 50%;
-  margin: 0 auto; */
   position: fixed;
   top: 60%;
   transform: translateY(-50%);
@@ -127,7 +122,6 @@ font-family: 'Syne', sans-serif; */
     margin-top: 18vh;
     width: 100%;
     transform: translateY(0);
-    /* max-height: 1000px; */
   }
 }
 
@@ -149,11 +143,8 @@ h1 {
 }
 
 .work-list {
-  /* margin: 20px auto;
-  padding-top: 60px;
-  max-width: 40%; */
   margin: 20px auto;
-  padding-top: 60px;
+  padding-top: 80px;
   max-width: 40%;
   margin-left: 55%;
 
@@ -244,7 +235,6 @@ h1 {
   list-style: none;
   text-decoration: none;
   font-size: 10vh;
-  color: #1a1818;
   padding-top: 12px;
 
   @media screen and (max-width: 1200px) {
@@ -257,11 +247,25 @@ h1 {
   justify-content: justify;
   flex-direction: column;
   flex-wrap: wrap;
+  padding: 10px;
+  margin-bottom: 24px;
+  border: 1px solid;
+  border-radius: 5px;
+  min-width: 75%;
+
 
   @media screen and (max-width: 1200px) {
     padding: 30px 16px;
   }
 }
+
+.work-container:hover{
+  border-radius: 5px;
+	box-shadow: -6px 6px 1px 0px;
+  transition: box-shadow 400ms ease 0s, transform 400ms ease 0s;
+  transform: translate(4px, -4px);
+}
+
 
 p.work-p {
   font-family: 'MuseoModerno', sans-serif;
@@ -293,9 +297,12 @@ p.work-p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   font-size: 2vh;
+  border-bottom: 2px dotted;
+  border-top: 2px dotted;
+  padding: 6px 0px;
 
   @media screen and (max-width: 1200px) {
     padding-top: 60px;

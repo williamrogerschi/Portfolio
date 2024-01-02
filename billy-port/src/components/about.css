@@ -348,6 +348,7 @@ span.about-exp {
 
 .resume-btn-wrapper {
     padding-top: 24px;
+    padding-bottom: 24px;
 
     @media screen and (max-width: 1200px) {
         padding-bottom: 24px;

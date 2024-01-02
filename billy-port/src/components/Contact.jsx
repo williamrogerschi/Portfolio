@@ -1,34 +1,18 @@
 import { Link } from "react-router-dom"
 import HomeNav from "./HomeNav"
 import './contact.css'
-// import Typed from 'react-typed'
-
 
 
 
 const Contact = () => {
 
-    const onCompleteTyped = (self) => {
-        self.cursor.style.display = 'none'
-    }
-
+    
     return (
         <>
             <HomeNav />
             <div className="contact-wrapper">
                 <div className="contact-content">
                     <div className="contact-content-container">
-                            {/* <Typed
-                                    strings={["Hello.", '', 'Hello!']}
-                                    typeSpeed={160}
-                                    backSpeed={100}
-                                    backDelay={1000}
-                                    showCursor={true}
-                                    // onComplete={(self) => onCompleteTyped(self)}
-                                    cursorChar='|'
-                                    loopCount={0}
-                                    className="text"
-                                /> */}
                               <div className="hello">
                                 <h1 className="hello">Hello!</h1>
                                 </div>  
