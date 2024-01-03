@@ -42,7 +42,7 @@ const Work = () => {
                         <p className='work-li-desc'>Cocktail Party, a hackathon project, uses React to tap into a cocktail recipe API. I focused on perfecting React mapping and rendering cards to create a user-friendly interface. The aim was simple: help users effortlessly discover cocktail recipes by browsing, searching, and filtering within the app. This project refined my API integration skills and showcased an easy-to-use platform for cocktail enthusiasts.</p>
                     </div>
                     <div className="work-container">
-                        <a href="#" className="work-li">Bike Labs</a>
+                        <a href="https://bike-labs.netlify.app/" target='_blank' className="work-li">Bike Labs</a>
                         {/* <img height={'300px'} width={'400px'} src="./swork.jpeg" /> */}
                         <p className='work-li-p'>A bicycle created in `THE LAB`.</p>
                         <p className='work-li-p'>Tech Stack: MERN ◍  Bootstrap ◍ MongoDB</p>

@@ -1,13 +1,14 @@
 /* background-color: #ECE7E1; - lauren
 color: #1A1818; - black
-#CCC5B9; - timbeerwolf
+##D6C9C9; - timbeerwolf
 #FFFCF2 - floral white
 #E9D3D0; - misty rose
 #403D39; - black olive
+#D5C5C8; - french gray
 #252422; - eerie black */
 
 :root {
-    --background: #E9D3D0; 
+    --background: #D5C5C8;
     --primary-text-color: #252422;
     --toggle-bg: #1C2826;
     --toggle-fg: #D64550;
@@ -17,31 +18,26 @@ color: #1A1818; - black
     --light-button-bg: #252422;
     --light-button-color: #E9D3D0;
   }
-  
   [data-theme='dark'] {
     --background: #252422;
-    --primary-text-color: #E9D3D0; 
+    --primary-text-color: #D5C5C8;
     --toggle-bg: #D64550;
     --toggle-fg: #1C2826;
     --background-image: url('./day-and-night.png');
-    --dark-button-bg: #E9D3D0; 
+    --dark-button-bg: #D5C5C8; 
     --dark-button-color: #252422;
   }
-
   [data-theme='dark'] a {
-    color: var(--dark-link-color); /* Link color in dark mode */
+    color: var(--dark-link-color);
   }
-  
   a {
-    color: var(--light-link-color); /* Default link color for light mode */
+    color: var(--light-link-color);
   }
-
   [data-theme='dark'] a:hover {
-    color: var(--dark-link-color); /* Link color in dark mode */
+    color: var(--dark-link-color);
   }
-  
   a {
-    color: var(--light-link-color); /* Default link color for light mode */
+    color: var(--light-link-color);
   }
   
   
