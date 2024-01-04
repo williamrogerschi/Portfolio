@@ -22,7 +22,7 @@ font-family: 'Space Grotesk', sans-serif; */
 .about-wrapper {
     display: flex;
     justify-content: center;
-    padding-left: 10%;
+    padding-left: 5%;
     min-height: 100vh;
 
 
@@ -103,9 +103,7 @@ a.home-link:hover {
     }
 }
 
-.about {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+.about-animation {
     display: flex;
     align-items: center;
     font-family: 'Gayathri', sans-serif;
@@ -126,63 +124,27 @@ span.text {
 }
 
 
-.about {
-    animation-name: slideDown;
-    -webkit-animation-name: slideDown;
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    animation-timing-function: ease;
-    -webkit-animation-timing-function: ease;
-    visibility: visible !important;
-    animation-iteration-count: 1;
-    animation-delay: 2s;
+.about-animation {
+  font-size: 34vh;
+  margin-top: 2rem;
+  animation-name: slideDown;
+  animation-duration: 1.25s;
+  animation-timing-function: ease;
+  opacity: 0;
+  transform: translateY(-200px);
+  animation-fill-mode: forwards;
 }
 
 @keyframes slideDown {
-    0% {
-      transform: translateY(-100%);
-    }
-    50% {
-      transform: translateY(8%);
-    }
-    65% {
-      transform: translateY(-4%);
-    }
-    80% {
-      transform: translateY(4%);
-    }
-    95% {
-      transform: translateY(-2%);
-    }
-    100% {
-      transform: translateY(0%);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
   }
-  
-  @-webkit-keyframes slideDown {
-    0% {
-      -webkit-transform: translateY(-100%);
-    }
-    50% {
-      -webkit-transform: translateY(8%);
-    }
-    65% {
-      -webkit-transform: translateY(-4%);
-    }
-    80% {
-      -webkit-transform: translateY(4%);
-    }
-    95% {
-      -webkit-transform: translateY(-2%);
-    }
-    100% {
-      -webkit-transform: translateY(0%);
-    }
-  }
-
-  .about.visible {
+  100% {
     opacity: 1;
+    transform: translateY(0);
   }
+}
 
 .about-img-wrapper {
     display: flex;
@@ -190,6 +152,10 @@ span.text {
     justify-content: space-around;
     padding: 0;
     margin: 0;
+
+    @media screen and (max-width: 1200px) {
+      padding-top: 80px;
+  }
 }
 
 .about-blurb-container {
@@ -236,8 +202,6 @@ span.text {
 }
 
 .headshot {
-    /* position: relative;
-    margin-left: 200px; */
     height: 400px;
     width: 300px;
     border-radius: 1px;
@@ -300,10 +264,37 @@ span.text {
     }
   }
 
+  .about-cards-wrapper {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+
+    @media screen and (max-width: 800px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .about-cards {
+    padding-left: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 50%;
+    flex-wrap: wrap;
+    border: 1px solid;
+  }
+
+  .about-cards:hover {
+    border-radius: 5px;
+    box-shadow: -6px 6px 1px 0px;
+    transition: box-shadow 300ms ease 0s, transform 300ms ease 0s;
+    transform: translate(4px, -4px);
+      }
+
 .experience {
-    font-family: 'Lexend Tera', sans-serif;
-    font-size: 2.3vw;
-    font-style: italic;
 
     @media screen and (max-width: 1200px) {
         padding-bottom: 20px;
@@ -311,7 +302,10 @@ span.text {
 }
 
 .experience-header {
-    padding-bottom: 20px;
+  font-family: 'Metrophobic', sans-serif;
+  font-size: 2.5vh;
+  font-style: italic;
+  padding-bottom: 20px;
 
     @media screen and (max-width: 1200px) {
         font-size: 5vw;

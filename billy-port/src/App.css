@@ -126,9 +126,11 @@ a.link {
   display: block;
   position: relative;
   animation: letterspacing 1s alternate cubic-bezier(.2, 0, 0, 1);
+  -webkit-animation: letterspacing 1s alternate cubic-bezier(.2, 0, 0, 1);
   left: 50%;
   top: 50%;
   transform: translate3d(-50%, -50%, 0);
+  -webkit-transform: ranslate3d(-50%, -50%, 0);
 
 
   @media screen and (max-width: 1200px) {

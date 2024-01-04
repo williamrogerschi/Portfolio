@@ -159,34 +159,59 @@ h1 {
   }
 }
 
+.work-li:not(.animation-complete) {
+  filter: blur(5px);
+}
+
 .work-li {
   font-family: 'Gayathri', sans-serif;
   font-style: normal;
   list-style: none;
   font-weight: 100;
   text-decoration: none;
-  font-size: 10vh;
+  font-size: 4vh;
   padding-top: 12px;
   margin-bottom: -20px;
-  animation-name: fadeIn;
+  /* animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
   animation-duration: 1.5s;
   -webkit-animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out; */
   visibility: visible !important;
   animation-delay: none;
   width: max-content;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  filter: blur(5px);
+  animation: fadeInText 2s forwards;
   
   @media screen and (max-width: 1200px) {
+    padding-top: 12px;
+    font-size: 6vh;
+  }
+
+  @media screen and (max-width: 800px) {
     animation: none;
     padding-top: 12px;
     font-size: 6vh;
   }
 }
 
-@keyframes fadeIn {
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* @keyframes fadeIn {
   0% {
     transform: scale(0);
     opacity: 0.0;
@@ -226,20 +251,24 @@ h1 {
     -webkit-transform: scale(1);
     opacity: 1;
   }
+} */
+
+.work-li .title {
+  font-size: 4vh;
 }
 
-.work-li:hover {
-  font-family: 'Gayathri', sans-serif;
-  /* font-style: italic; */
-  font-size: 11vh;
-  transition: font-size 500ms ease 0s;
-  list-style: none;
-  text-decoration: none;
-  padding-top: 12px;
+.work-li span {
+  transition:  500ms ease;
+}
 
-  @media screen and (max-width: 1200px) {
-    font-size: 6vh;
-  }
+.arrow {
+  padding-left: 0.5rem;
+  font-size: 4vh;
+  transition: transform 1000ms ease;
+}
+
+.work-li:hover .arrow {
+  transform: translate(8px);
 }
 
 .work-container {
@@ -250,7 +279,7 @@ h1 {
   padding: 1rem;
   margin-bottom: 48px;
   border: 2px solid;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   min-width: 75%;
 
 
@@ -282,15 +311,18 @@ p.work-p {
 }
 
 .work-li-p {
-  font-family: 'IBM Plex', monospace; 
   font-family: 'Space Mono', monospace;
-  font-style: normal;
+  font-style: italic;
   margin: 0;
-  font-size: 2.2vh;
+  font-size: 1.7vh;
 
   @media screen and (max-width: 1200px) {
     font-size: 2vh;
   }
+}
+
+.work-p-container {
+  padding-top: 1.2rem;
 }
 
 .work-li-desc {

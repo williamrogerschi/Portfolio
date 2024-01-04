@@ -5,7 +5,13 @@ color: #1A1818; - black
 #E9D3D0; - misty rose
 #403D39; - black olive
 #D5C5C8; - french gray
-#252422; - eerie black */
+#BBC5AA - ash gray
+#B59194 - rosy brown
+#BFACC8 - thistle
+ */
+
+
+
 
 :root {
     --background: #D5C5C8;
@@ -14,13 +20,13 @@ color: #1A1818; - black
     --toggle-fg: #D64550;
     --background-image: url('./dark.png') ;
     --light-link-color:#252422;
-    --dark-link-color: #E9D3D0; 
+    --dark-link-color: #F5D0C5; 
     --light-button-bg: #252422;
     --light-button-color: #E9D3D0;
   }
   [data-theme='dark'] {
     --background: #252422;
-    --primary-text-color: #D5C5C8;
+    --primary-text-color: #F5D0C5;
     --toggle-bg: #D64550;
     --toggle-fg: #1C2826;
     --background-image: url('./day-and-night.png');
@@ -39,5 +45,5 @@ color: #1A1818; - black
   a {
     color: var(--light-link-color);
   }
-  
+
   
