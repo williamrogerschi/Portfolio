@@ -3,6 +3,11 @@
     position: absolute;
     top: 0.2em;
     right: 10em;
+
+    @media screen and (max-width: 1200px) {
+        top: 0.2em;
+        right: 2em;
+    }
 }
 
 .toggle {

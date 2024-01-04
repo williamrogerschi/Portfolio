@@ -6,7 +6,9 @@ color: #1A1818; - black
 #403D39; - black olive
 #D5C5C8; - french gray
 #BBC5AA - ash gray
-#B59194 - rosy brown
+#F5D0C5 - rosy brown
+#86615C - rose taupe
+#D64550 - og toggle
 #BFACC8 - thistle
  */
 
@@ -17,20 +19,20 @@ color: #1A1818; - black
     --background: #D5C5C8;
     --primary-text-color: #252422;
     --toggle-bg: #1C2826;
-    --toggle-fg: #D64550;
+    --toggle-fg: #E3DE8F;
     --background-image: url('./dark.png') ;
     --light-link-color:#252422;
-    --dark-link-color: #F5D0C5; 
+    --dark-link-color: #86615C; 
     --light-button-bg: #252422;
     --light-button-color: #E9D3D0;
   }
   [data-theme='dark'] {
     --background: #252422;
-    --primary-text-color: #F5D0C5;
-    --toggle-bg: #D64550;
+    --primary-text-color: #86615C;
+    --toggle-bg: #E3DE8F;
     --toggle-fg: #1C2826;
     --background-image: url('./day-and-night.png');
-    --dark-button-bg: #D5C5C8; 
+    --dark-button-bg: #86615C; 
     --dark-button-color: #252422;
   }
   [data-theme='dark'] a {

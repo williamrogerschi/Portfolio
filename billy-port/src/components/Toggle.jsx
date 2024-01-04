@@ -6,7 +6,7 @@ function Toggle ( {handleChange, isChecked})  {
     const [imageLoaded, setImageLoaded] = useState(true)
 
     const changeImage = () => {
-        return isChecked ? './dm.png' : './lm.png'
+        return isChecked ? './dm2.png' : './lm.png'
     }
 
     const handleImageLoaded = () => {
@@ -23,7 +23,8 @@ function Toggle ( {handleChange, isChecked})  {
             checked={isChecked}
             />
             <label htmlFor='check' className={`image-transition ${!imageLoaded ? 'hidden' : ''}`}>
-                <img className='toggle-img' src={changeImage()} alt={isChecked ? 'Day and Night Icon' : 'Dark Mode Icon'} /></label>
+                <img className='toggle-img' src={changeImage()} alt={isChecked ? 'Day and Night Icon' : 'Dark Mode Icon'} />
+                </label>
         </div>
     )
 
