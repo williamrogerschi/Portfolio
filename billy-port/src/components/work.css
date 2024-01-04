@@ -214,6 +214,13 @@ h1 {
   transition:  500ms ease;
 }
 
+@media screen and (max-width: 1000px) {
+
+.work-li .arrow {
+  display: none;
+}
+}
+
 .arrow {
   padding-left: 0.5rem;
   padding-bottom: 0.5rem;
