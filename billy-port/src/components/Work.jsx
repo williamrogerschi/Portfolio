@@ -32,7 +32,7 @@ const Work = () => {
                         <a href="#" className="work-li"><span className='title'>Gwent CCG </span><span className='arrow'> ↪ </span></a>
                         <div className='work-p-container'>
                         <p className='work-li-p'>Gwent Custom Card Generator</p>
-                        <p className='work-li-p'>Tech Stack: HTML ◍ CSS Javascript ◍ Mongoose ◍ Express</p>
+                        <p className='work-li-p'>Tech Stack: HTML ◍ CSS ◍ Javascript ◍ Mongoose ◍ Express</p>
                         </div>
                         <p className='work-li-desc'>For my second project, I created a personalized card builder based off the CCG 'Gwent'. This project was all about making card customization a breeze for Gwent fans. I had alot of fun creating this, and quickly learned later on- that I would be able to streamline this using React.</p>
                     </div>
