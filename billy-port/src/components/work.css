@@ -172,12 +172,6 @@ h1 {
   font-size: 4vh;
   padding-top: 12px;
   margin-bottom: -20px;
-  /* animation-name: fadeIn;
-  -webkit-animation-name: fadeIn;
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: ease-in-out; */
   visibility: visible !important;
   animation-delay: none;
   width: max-content;
@@ -211,50 +205,9 @@ h1 {
   }
 }
 
-/* @keyframes fadeIn {
-  0% {
-    transform: scale(0);
-    opacity: 0.0;
-  }
-
-  60% {
-    transform: scale(1.1);
-  }
-
-  80% {
-    transform: scale(0.9);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    -webkit-transform: scale(0);
-    opacity: 0.0;
-  }
-
-  60% {
-    -webkit-transform: scale(1.1);
-  }
-
-  80% {
-    -webkit-transform: scale(0.9);
-    opacity: 1;
-  }
-
-  100% {
-    -webkit-transform: scale(1);
-    opacity: 1;
-  }
-} */
-
 .work-li .title {
   font-size: 4vh;
+  font-weight: 500;
 }
 
 .work-li span {
@@ -263,6 +216,7 @@ h1 {
 
 .arrow {
   padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
   font-size: 4vh;
   transition: transform 1000ms ease;
 }
