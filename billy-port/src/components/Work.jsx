@@ -29,12 +29,12 @@ const Work = () => {
                         <p className='work-li-desc'>This was my first project and we had the choice between building a game or using a restful API. I chose to use an API and wanted to build an APP that would allow a user to login and check their profile, rides, and achievements in a simpler UI than what was currently being offered by Strava.</p>
                     </div>
                     <div className="work-container">
-                        <a href="#" className="work-li"><span className='title'>Gwent CCG </span><span className='arrow'> 🡢 </span></a>
+                        <a href="https://mern-haus.netlify.app/" className="work-li"><span className='title'>MERN Pizza Haus </span><span className='arrow'> 🡢 </span></a>
                         <div className='work-p-container'>
-                        <p className='work-li-p'>Gwent Custom Card Generator</p>
-                        <p className='work-li-p'>Tech Stack: HTML ◍ CSS ◍ Javascript ◍ Mongoose ◍ Express</p>
+                        <p className='work-li-p'>Pizza made with the MERN stack, or toppings...</p>
+                        <p className='work-li-p'>Tech Stack: MERN ◍ CSS ◍ Bootstrap ◍ MongoDB</p>
                         </div>
-                        <p className='work-li-desc'>For my second project, I created a personalized card builder based off the CCG 'Gwent'. This project was all about making card customization a breeze for Gwent fans. I had alot of fun creating this, and quickly learned later on- that I would be able to streamline this using React.</p>
+                        <p className='work-li-desc'>Collaborated on a pizza ordering web app as part of a group project during a coding bootcamp, employing the MERN stack (MongoDB, Express.js, React, Node.js). The app facilitates user registration, login, menu browsing, order customization, cart management, and secure order processing. For the styling we utilized CSS and Bootstrap.</p>
                     </div>
                     <div className="work-container">
                         <a href="https://cocktail-party-ga.netlify.app/" target='_blank' className="work-li"><span className='title'>Cocktail Party </span><span className='arrow'> 🡢 </span></a>
@@ -48,7 +48,7 @@ const Work = () => {
                         <a href="https://bike-labs.netlify.app/" target='_blank' className="work-li"><span className='title'>Bike Labs </span><span className='arrow'> 🡢 </span></a>
                         <div className='work-p-container'>
                         <p className='work-li-p'>A bicycle created in `THE LAB`.</p>
-                        <p className='work-li-p'>Tech Stack: MERN ◍  Bootstrap ◍ MongoDB</p>
+                        <p className='work-li-p'>Tech Stack: MERN ◍ CSS ◍ Bootstrap ◍ MongoDB</p>
                         </div>
                         <p className='work-li-desc'>Imagine a platform where bike lovers can log in, check out different bike builds, and even create their own from scratch. I made it happen! With the MERN stack, I created an easy-to-use app that allowed users to log in, explore existing bike builds, and design their own with all the bells and whistles. Thjis was a hub for cyclists to discover, build, and share their passion for bikes. This project was my capstone and I showcased my skills for both frontend and backend magic. By having full CRUD across the app.</p>
                     </div>
