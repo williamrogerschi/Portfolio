@@ -250,10 +250,48 @@ h1 {
 }
 
 .work-container:hover{
-  border-radius: 5px;
-	box-shadow: -6px 6px 1px 0px;
+  /* border-radius: 5px; */
+	box-shadow: 6px 6px 1px 0px;
   transition: box-shadow 300ms ease 0s, transform 300ms ease 0s;
-  transform: translate(4px, -4px);
+  transform: translate(-4px, -4px);
+}
+
+.work-img-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.work-title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img-wrapper {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.project-img-container {
+  width: 14.5vw;
+  height: 10vw;
+  transition: transform 0.5s ease-in-out;
+}
+
+.project-img-container::after {
+  transition: transform 0.5s ease-in-out;
+}
+
+.project-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.project-img:hover {
+  transform: scale(1.05);
 }
 
 

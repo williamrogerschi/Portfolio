@@ -3,6 +3,7 @@
     position: absolute;
     top: 0.2em;
     right: 10em;
+    
 
     @media screen and (max-width: 1200px) {
         top: 0.2em;
@@ -30,6 +31,8 @@
 .toggle-img {
     height: 2em;
     width: 2em;
+    border-radius: 100px;
+    box-shadow: 6px 1px 1px 0px;
 }
 
 
