@@ -31,7 +31,7 @@ const Work = () => {
                                 </div>
                                 <div className='project-img-wrapper'>
                                     <div className='project-img-container'>
-                                <img className='project-img' src='./strava.jpeg' />
+                                <img className='project-img' src='./strava-grainy.png' />
                                 </div>
                                 </div>
                             </div>

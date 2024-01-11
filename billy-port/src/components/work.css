@@ -240,8 +240,9 @@ h1 {
   padding: 1rem;
   margin-bottom: 48px;
   border: 2px solid;
-  /* border-radius: 5px; */
   min-width: 75%;
+  /* box-shadow: 6px 6px 1px 0px; */
+  border-radius: 5px;
 
 
   @media screen and (max-width: 1200px) {
@@ -250,8 +251,7 @@ h1 {
 }
 
 .work-container:hover{
-  /* border-radius: 5px; */
-	box-shadow: 6px 6px 1px 0px;
+	box-shadow: 5px 5px 1px 0px;
   transition: box-shadow 300ms ease 0s, transform 300ms ease 0s;
   transform: translate(-4px, -4px);
 }

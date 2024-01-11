@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import Main from './components/Main'
 import './App.css'
 import Toggle from './components/Toggle'
@@ -6,12 +7,10 @@ import useLocalStorage from 'use-local-storage'
 
 
 
-
 function App() {
 
   const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches
   const [isDark, setIsDark] = useLocalStorage('isDark', defaultDark)
-
 
   return (
 

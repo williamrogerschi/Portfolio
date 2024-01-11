@@ -15,6 +15,7 @@ function Toggle ( {handleChange, isChecked})  {
 
     return (
         <div className='toggle-container'>
+            <div className='toggle-wrapper'>
             <input 
             type='checkbox'
             id='check'
@@ -25,6 +26,7 @@ function Toggle ( {handleChange, isChecked})  {
             <label htmlFor='check' className={`image-transition ${!imageLoaded ? 'hidden' : ''}`}>
                 <img className='toggle-img' src={changeImage()} alt={isChecked ? 'Day and Night Icon' : 'Dark Mode Icon'} />
                 </label>
+                </div>
         </div>
     )
 
