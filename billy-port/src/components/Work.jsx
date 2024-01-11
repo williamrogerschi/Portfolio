@@ -23,7 +23,7 @@ const Work = () => {
                         <div className="work-container">
                             <div className='work-img-wrapper'>
                                 <div className='work-title-wrapper'>
-                                    <a href="https://strava-api.netlify.app/" target='_blank' className="work-li"><span className='title'>Strava API </span><span className='arrow'> 🡢 </span></a>
+                                    <p className="work-li"><span className='title'>Strava API </span></p>
                                     <div className='work-p-container'>
                                         <p className='work-li-p'>Stats.Rides.Community.</p>
                                         <p className='work-li-p'>Tech Stack: HTML ◍ CSS ◍ JavaScript</p>
@@ -31,34 +31,66 @@ const Work = () => {
                                 </div>
                                 <div className='project-img-wrapper'>
                                     <div className='project-img-container'>
-                                <img className='project-img' src='./strava-grainy.png' />
-                                </div>
+                                        <a href="https://strava-api.netlify.app/" target='_blank' ><img className='project-img' src='./strava-grainy.png' /></a>
+                                    </div>
                                 </div>
                             </div>
-
                             <p className='work-li-desc'>This was my first project and we had the choice between building a game or using a restful API. I chose to use an API and wanted to build an APP that would allow a user to login and check their profile, rides, and achievements in a simpler UI than what was currently being offered by Strava.</p>
                         </div>
+
+
                         <div className="work-container">
-                            <a href="https://mern-haus.netlify.app/" className="work-li"><span className='title'>MERN Pizza Haus </span><span className='arrow'> 🡢 </span></a>
-                            <div className='work-p-container'>
-                                <p className='work-li-p'>Pizza made with the MERN stack, or toppings...</p>
-                                <p className='work-li-p'>Tech Stack: MERN ◍ CSS ◍ Bootstrap ◍ MongoDB</p>
+                            <div className='work-img-wrapper'>
+                                <div className='work-title-wrapper'>
+                                    <p className="work-li"><span className='title'>MERN Pizza Haus </span></p>
+                                    <div className='work-p-container'>
+                                        <p className='work-li-p'>Pizza made with the MERN stack, or toppings...</p>
+                                        <p className='work-li-p'>Tech Stack: MERN ◍ CSS ◍ Bootstrap ◍ MongoDB</p>
+                                    </div>
+                                </div>
+                                <div className='project-img-wrapper'>
+                                    <div className='project-img-container'>
+                                        <a href="https://mern-haus.netlify.app/" target='_blank' ><img className='project-img' src='./mern-haus-grainy.jpg' /></a>
+                                    </div>
+                                </div>
                             </div>
                             <p className='work-li-desc'>Collaborated on a pizza ordering web app as part of a group project during a coding bootcamp, employing the MERN stack (MongoDB, Express.js, React, Node.js). The app facilitates user registration, login, menu browsing, order customization, cart management, and secure order processing. For the styling we utilized CSS and Bootstrap.</p>
                         </div>
+
+
                         <div className="work-container">
-                            <a href="https://cocktail-party-ga.netlify.app/" target='_blank' className="work-li"><span className='title'>Cocktail Party </span><span className='arrow'> 🡢 </span></a>
-                            <div className='work-p-container'>
-                                <p className='work-li-p'>What's a party without some cocktails and some recipes...</p>
-                                <p className='work-li-p'>Tech Stack: MERN ◍ REST API</p>
+                            <div className='work-img-wrapper'>
+                                <div className='work-title-wrapper'>
+                                    <p className="work-li"><span className='title'>Cocktail Party </span></p>
+                                    <div className='work-p-container'>
+                                        <p className='work-li-p'>What's a party without some cocktails and some recipes...</p>
+                                        <p className='work-li-p'>Tech Stack: MERN ◍ REST API</p>
+                                    </div>
+                                </div>
+                                <div className='project-img-wrapper'>
+                                    <div className='project-img-container'>
+                                        <a href="https://cocktail-party-ga.netlify.app/" target='_blank'  ><img className='project-img' src='./cocktails-grainy.jpg' /></a>
+                                    </div>
+                                </div>
                             </div>
                             <p className='work-li-desc'>Cocktail Party, a hackathon project, uses React to tap into a cocktail recipe API. I focused on perfecting React mapping and rendering cards to create a user-friendly interface. The aim was simple: help users effortlessly discover cocktail recipes by browsing, searching, and filtering within the app. This project refined my API integration skills and showcased an easy-to-use platform for cocktail enthusiasts.</p>
                         </div>
+
+
                         <div className="work-container">
-                            <a href="https://bike-labs.netlify.app/" target='_blank' className="work-li"><span className='title'>Bike Labs </span><span className='arrow'> 🡢 </span></a>
-                            <div className='work-p-container'>
-                                <p className='work-li-p'>A bicycle created in `THE LAB`.</p>
-                                <p className='work-li-p'>Tech Stack: MERN ◍ CSS ◍ Bootstrap ◍ MongoDB</p>
+                            <div className='work-img-wrapper'>
+                                <div className='work-title-wrapper'>
+                                    <p  className="work-li"><span className='title'>Bike Labs </span></p>
+                                    <div className='work-p-container'>
+                                        <p className='work-li-p'>A bicycle created in `THE LAB`.</p>
+                                        <p className='work-li-p'>Tech Stack: MERN ◍ CSS ◍ Bootstrap ◍ MongoDB</p>
+                                    </div>
+                                </div>
+                                <div className='project-img-wrapper'>
+                                    <div className='project-img-container'>
+                                        <a href="https://bike-labs.netlify.app/" target='_blank' ><img className='project-img' src='./aethos-grainy.jpg' /></a>
+                                    </div>
+                                </div>
                             </div>
                             <p className='work-li-desc'>Imagine a platform where bike lovers can log in, check out different bike builds, and even create their own from scratch. I made it happen! With the MERN stack, I created an easy-to-use app that allowed users to log in, explore existing bike builds, and design their own with all the bells and whistles. Thjis was a hub for cyclists to discover, build, and share their passion for bikes. This project was my capstone and I showcased my skills for both frontend and backend magic. By having full CRUD across the app.</p>
                         </div>

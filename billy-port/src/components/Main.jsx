@@ -7,7 +7,7 @@ import Home from './Home'
 
 function Main () {
     return (
-        <div className="main">
+        <div>
             <Routes>
                 <Route path='/' element={<Home/>} />
                 <Route path='/Work' element={<Work/>} />

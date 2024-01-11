@@ -15,6 +15,7 @@ font-family: 'IBM Plex', monospace;
 font-family: 'Space Grotesk', sans-serif; */
 
 .App {
+  min-height: 100vh;
   background-color: var(--background);
   color: var(--primary-text-color);
   transition: background-color 0.25s ease-in-out;
