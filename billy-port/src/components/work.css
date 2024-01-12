@@ -215,7 +215,7 @@ h1 {
   margin-bottom: 48px;
   border: 2px solid;
   min-width: 75%;
-  box-shadow: 6px 6px 1px 0px;
+  box-shadow: 5px 5px 1px 0px;
   border-radius: 5px;
 
 
@@ -223,12 +223,12 @@ h1 {
     padding: 30px 16px;
   }
 }
-
+/* 
 .work-container:hover{
-	/* box-shadow: 5px 5px 1px 0px; */
+	box-shadow: 5px 5px 1px 0px;
   transition: box-shadow 300ms ease 0s, transform 300ms ease 0s;
-  /* transform: translate(-4px, -4px); */
-}
+  transform: translate(-4px, -4px);
+} */
 
 .work-img-wrapper {
   display: flex;

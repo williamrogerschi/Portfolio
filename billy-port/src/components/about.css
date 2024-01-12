@@ -91,7 +91,7 @@ a.home-link:hover {
 }
 
 .about-content {
-    padding-top: 20vh;
+    padding-top: 24vh;
     display: flex;
     flex-direction: row;
 
@@ -110,23 +110,11 @@ a.home-link:hover {
     align-items: center;
     font-family: 'Gayathri', sans-serif;
     font-weight: 300;
-
-    @media screen and (max-width: 1200px) {
-        font-size: 20vw;
-    }
-}
-
-span.text {
-    font-size: 2vh;
-
-    @media screen and (max-width: 1200px) {
-        font-size: 10vh;
-    }
 }
 
 
 .about-animation {
-  font-size: 28vh;
+  font-size: 12vw;
   margin-top: 2rem;
   animation-name: slideDown;
   animation-duration: 1.25s;
@@ -134,7 +122,7 @@ span.text {
   opacity: 0;
   transform: translateY(-200px);
   animation-fill-mode: forwards;
-  z-index: 9999px;
+  z-index: 1;
 
   @media screen and (max-width: 1200px) {
     font-size: 12vh;
@@ -155,16 +143,22 @@ span.text {
 
 .about-all-container {
   position: relative;
+  width: 50%;
+
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+  }
 }
 
 .about-img-wrapper {
     display: flex;
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
+    flex-direction: row-reverse;
 
     @media screen and (max-width: 1200px) {
+      display: flex;
+      justify-content: flex-end;
       padding-top: 80px;
+      width: 100%;
   }
 }
 
@@ -199,14 +193,11 @@ span.text {
     }
 }
 
-
 .headshot {
-  position: absolute;
-  top: 10vh;
-  left: 60vh;
-  height: 20vh;
-  width: 12vw;
-  z-index: -1;
+  top: 2vh;
+  left: 70vh;
+  height: 300px;
+  width: 225px;
   animation-name: fadeIn;
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
@@ -216,6 +207,7 @@ span.text {
 
 
     @media screen and (max-width: 1200px) {
+
         height: 266px;
         width: 200px;
     }
@@ -260,12 +252,11 @@ span.text {
   .about-cards-wrapper {
     margin-left: 5vw;
     margin-right: 5vw;
-    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
-    min-width: 40%;
+    gap: 3rem;
+
 
     @media screen and (max-width: 1200px) {
       display: flex;
