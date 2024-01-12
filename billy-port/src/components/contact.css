@@ -147,13 +147,18 @@ a.home-link:hover {
     font-weight: 100;
     padding: 0px;
     margin: 0px;
-    padding-top: 12px;
+    padding-top: 0.8rem;
+
+    
+    @media screen and (max-width: 1200px) {
+      padding-top: 2rem;
+    }
   }
 
   .about-p {
     font-family: 'MuseoModerno', sans-serif;
     font-weight: 200;
-    font-size: 2vh;
+    font-size: 2.2vh;
     margin-top: -80px;
     padding: 0;
 
@@ -165,11 +170,11 @@ a.home-link:hover {
   .li-contact {
     font-style: normal;
     list-style: none;
-    font-size: 1.8vh;
+    font-size: 2vh;
   
     @media screen and (max-width: 1200px) {
-      padding-top: 12px;
-      font-size: 3vh;
+      padding-top: 0.8rem;
+      font-size: 2.2vh;
     }
   }
   

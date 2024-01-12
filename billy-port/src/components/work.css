@@ -201,6 +201,7 @@ h1 {
 .work-li .title {
   font-size: 4vh;
   font-weight: 500;
+  font-style: italic;
 }
 
 .work-li span {
@@ -308,7 +309,7 @@ p.work-p {
 
 .work-li-p {
   font-family: 'Space Mono', monospace;
-  font-style: italic;
+  padding-bottom: 0.5rem;
   margin: 0;
   font-size: 1.7vh;
 
@@ -318,7 +319,7 @@ p.work-p {
 }
 
 .work-p-container {
-  padding-top: 1.2rem;
+  padding-top: 1.5rem;
   padding-bottom: 1.2rem;
   border-bottom: 0.12rem solid;
 }
