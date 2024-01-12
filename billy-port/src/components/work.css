@@ -82,16 +82,21 @@ font-family: 'Syne', sans-serif; */
     margin: 0 12vw;
     font-size: 3.5vw;
   }
-
 }
 
 .home-sidebar {
-  position: absolute;
+  position: sticky;
+  top: 0;
   display: flex;
   flex-direction: column;
   width: 12vw;
   height: 12vh;
+
+  @media  screen and (max-width: 1200px) {
+      padding-top: 40px;
+  }
 }
+
 
 .header-wrapper {
   padding: 0;
@@ -137,7 +142,7 @@ h1 {
 }
 
 .work-list {
-  margin-top: -30vh;
+  margin-top: -50vh;
   max-width: 40%;
   margin-left: 55%;
 
@@ -157,12 +162,6 @@ h1 {
 }
 
 .work-li {
-  font-family: 'Gayathri', sans-serif;
-  font-style: normal;
-  list-style: none;
-  font-weight: 100;
-  text-decoration: none;
-  font-size: 4vh;
   padding-top: 12px;
   margin-bottom: -20px;
   visibility: visible !important;
@@ -199,6 +198,10 @@ h1 {
 }
 
 .work-li .title {
+  font-family: 'Gayathri', sans-serif;
+  font-style: normal;
+  list-style: none;
+  text-decoration: none;
   font-size: 4vh;
   font-weight: 500;
   font-style: italic;

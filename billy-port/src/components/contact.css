@@ -11,14 +11,12 @@ font-family: 'Space Mono', monospace; */
 
 .contact-wrapper {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-left: 10%;
-  height: 100vh;
+  place-content: start;
+  padding-top: 12vh;
+  padding-left: 14vh;
 
     @media screen and (max-width: 1200px) {
       height: auto;
-      min-height: 100vh;
       padding-left: 10px;
       width: auto;
       }

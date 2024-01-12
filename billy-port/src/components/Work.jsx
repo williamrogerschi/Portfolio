@@ -1,9 +1,15 @@
 import HomeNav from './HomeNav'
+import React, { useState, useEffect } from 'react'
 import { Link } from "react-router-dom"
 import './work.css'
 
 
 const Work = () => {
+    const [isSticky, setIsSticky] = useState(true)
+  
+    useEffect(() => {
+      setIsSticky(true)
+    }, [])
 
     return (
         <>

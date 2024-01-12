@@ -227,19 +227,18 @@ a.side-link {
 
 .side-link:hover {
   text-decoration: line-through;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
 }
 
 .nav-link {
   text-decoration: none;
   transform: rotate(270deg);
   padding: 60px 0px 90px 60px;
-  color: #1A1818;
 }
 
 .prof-span {
   font-family: 'Syne', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1vw;
 
   @media screen and (max-width: 1200px) {

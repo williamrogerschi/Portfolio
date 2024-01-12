@@ -1,12 +1,14 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom';
+import React from 'react';
 
-function HomeNav  () {
-    return (
-            <div className="home-sidebar">
-                <Link className='home-link' to='/'>Home</Link>
-            </div>
-
-    )
+function HomeNav({ isSticky }) {
+  return (
+    <div className={`home-sidebar ${isSticky ? 'sticky' : ''}`}>
+      <Link className="home-link" to="/">
+        Home
+      </Link>
+    </div>
+  );
 }
 
-export default HomeNav
+export default HomeNav;

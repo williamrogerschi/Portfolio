@@ -1,15 +1,19 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import HomeNav from './HomeNav'
 import { Link } from 'react-router-dom'
 import './about.css'
 
 const About = () => {
-
+    const [isSticky, setIsSticky] = useState(true)
+  
+    useEffect(() => {
+      setIsSticky(false)
+    }, []);
+  
 
     return (
         <>
-            <HomeNav />
-
+          <HomeNav />
             <div className="about-wrapper">
                 <div className="about-content">
                     <div className='about-all-container'>
@@ -22,7 +26,6 @@ const About = () => {
                         </div>
                     </div>
 
-
                     <div className='about-cards-wrapper'>
                         <div className='about-cards'>
                             <div className='experience-wrapper'>
@@ -31,7 +34,7 @@ const About = () => {
                                 </div>
                                 <div className='experience-content'>
                                     <span className='about-exp'> <span className="prof-span">Software Engineering Certificate</span> 12 week, 400+ hour intensive bootcamp at General Assembly  | </span> <span className='about-exp'>December 2023</span>
-                                    <p className='content-exp'> <span className="prof-span">Degree in Business Administration</span> from Northeastern Illinois University | May 2021</p>
+                                    <p className='about-exp'> <span className="prof-span">Degree in Business Administration</span> from Northeastern Illinois University | May 2021</p>
                                 </div>
                             </div>
 
@@ -47,8 +50,8 @@ const About = () => {
                                 </div>
                                 <div className='experience-content'>
                                     <span className='about-exp'> <span className="prof-span"> Languages: </span></span> <span className='about-exp'>JavaScript ◍ HTML ◍ CSS ◍ Python ◍ SQL ◍ Mongo ◍ JSON | Database - MongoDB</span>
-                                    <p className='content-exp'> <span className="prof-span">Libraries and Frameworks: </span> React ◍ Express.js ◍ Django ◍  Bootstrap ◍ Tailwind</p>
-                                    <p className='content-exp'> <span className="prof-span">Other: </span> RESTful Routing ◍ JSON API  ◍  SAP ◍ Salesforce</p>
+                                    <p className='about-exp'> <span className="prof-span">Libraries and Frameworks: </span> React ◍ Express.js ◍ Django ◍  Bootstrap ◍ Tailwind</p>
+                                    <p className='about-exp'> <span className="prof-span">Other: </span> RESTful Routing ◍ JSON API  ◍  SAP ◍ Salesforce</p>
                                 </div>
                             </div>
 
@@ -57,7 +60,6 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </>
