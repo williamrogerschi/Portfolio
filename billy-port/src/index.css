@@ -20,7 +20,7 @@ color: #1A1818; - black
     --primary-text-color: #252422;
     --toggle-bg: #1C2826;
     --toggle-fg: #E3DE8F;
-    --background-image: url('src/assets/wb5.png');
+    --background-image: url('/assets/wb5.png');
     --light-link-color:#252422;
     --dark-link-color: #86615C; 
     --light-button-bg: #252422;
@@ -31,7 +31,7 @@ color: #1A1818; - black
     --primary-text-color: #86615C;
     --toggle-bg: #E3DE8F;
     --toggle-fg: #1C2826;
-    --background-image: url('src/assets/wb.png');
+    --background-image: url('/assets/wb.png');
     --dark-button-bg: #86615C; 
     --dark-button-color: #252422;
   }
