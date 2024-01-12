@@ -141,6 +141,7 @@ h1 {
     display: flex;
     justify-content: start;
     font-size: 11vh;
+    border-bottom: 1px solid;
   }
 }
 
@@ -185,8 +186,11 @@ h1 {
   animation: fadeInText 2s forwards; */
   
   @media screen and (max-width: 1200px) {
-    padding-top: 12px;
-    font-size: 6vh;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 12vh;
   }
 
   @media screen and (max-width: 800px) {
@@ -306,7 +310,8 @@ p.work-p {
 
   @media screen and (max-width: 1200px) {
     font-size: 2vh;
-    margin-bottom: 40px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 }
 
@@ -318,6 +323,7 @@ p.work-p {
 
   @media screen and (max-width: 1200px) {
     font-size: 2vh;
+    border-bottom: none;
   }
 }
 

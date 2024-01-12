@@ -23,6 +23,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background);
+  background-image: var(--background-image);
   color: var(--primary-text-color);
 
   @media screen and (max-width:1200px) {
@@ -30,7 +31,8 @@ body {
     padding: 0;
     max-height: 100vh;
     min-height: 100vh;
-    /* height: auto; */
+    height: auto;
+    background-image: var(--background-image1);
   }
 
 }
@@ -42,6 +44,7 @@ body {
 
   @media screen and (max-width: 1200px) {
     height: auto;
+    
   }
 }
 
