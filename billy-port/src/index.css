@@ -21,7 +21,7 @@ color: #1A1818; - black
     --toggle-bg: #1C2826;
     --toggle-fg: #E3DE8F;
     --image: url('./dark.png') ;
-    --background-image: url('wb5.png');
+    --background-image: url('./wb5.png');
     --light-link-color:#252422;
     --dark-link-color: #86615C; 
     --light-button-bg: #252422;
@@ -33,7 +33,7 @@ color: #1A1818; - black
     --toggle-bg: #E3DE8F;
     --toggle-fg: #1C2826;
     --image: url('./day-and-night.png');
-    --background-image: url('wb.png');
+    --background-image: url('./wb.png');
     --dark-button-bg: #86615C; 
     --dark-button-color: #252422;
   }
