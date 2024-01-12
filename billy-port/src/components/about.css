@@ -242,7 +242,6 @@ a.home-link:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 3rem;
 
 
     @media screen and (max-width: 1200px) {
@@ -255,7 +254,7 @@ a.home-link:hover {
   }
 
   .about-cards {
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -315,6 +314,11 @@ span.about-exp {
     }
 }
 
+.resume-btn-container {
+  padding-top: 0.6rem;
+}
+
+
 .resume-btn-wrapper {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -351,4 +355,5 @@ span.about-exp {
   background-color: var(--dark-button-bg);
   color: var(--dark-button-color);
 }
+
 

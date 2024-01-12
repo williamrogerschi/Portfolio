@@ -32,7 +32,6 @@ body {
     max-height: 100vh;
     min-height: 100vh;
     height: auto;
-    background-image: var(--background-image1);
   }
 
 }

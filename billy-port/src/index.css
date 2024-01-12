@@ -20,7 +20,6 @@ color: #1A1818; - black
     --primary-text-color: #252422;
     --toggle-bg: #1C2826;
     --toggle-fg: #E3DE8F;
-    --background-image1: url('billy.jpg');
     --background-image: url('/assets/wb.png');
     --light-link-color:#252422;
     --dark-link-color: #86615C; 
@@ -32,7 +31,6 @@ color: #1A1818; - black
     --primary-text-color: #86615C;
     --toggle-bg: #E3DE8F;
     --toggle-fg: #1C2826;
-    --background-image1: url('/assets/bw5.png');
     --background-image: url('/assets/wb.png');
     --dark-button-bg: #86615C; 
     --dark-button-color: #252422;
