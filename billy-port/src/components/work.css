@@ -122,11 +122,11 @@ font-family: 'Syne', sans-serif; */
 h1 {
   display: flex;
   justify-content: start;
-  font-family: 'Gayathri', sans-serif;
-  font-weight: 500;
+  font-family: 'Syne', sans-serif; 
+  font-weight: 100;
   margin: 0;
   padding: 0;
-  font-size: 12vh;
+  font-size: 15vh;
   width: max-content;
 
   @media screen and (max-width: 1200px) {

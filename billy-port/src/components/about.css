@@ -12,7 +12,10 @@ font-family: 'Source Code Pro', monospace;
 font-family: 'Space Mono', monospace;
 font-family: 'IBM Plex', sans;
 font-family: 'IBM Plex', monospace;
-font-family: 'Space Grotesk', sans-serif; */
+font-family: 'Space Grotesk', sans-serif;
+font-family: 'Inknut Antiqua', serif;
+font-family: 'Syne', sans-serif; 
+font-famiily: 'Manrope', sans-serif; */
 
 .App {
   min-height: 100vh;
@@ -101,15 +104,17 @@ a.home-link:hover {
         flex-direction: column;
         min-height: 100vh;
         margin: 0;
-        padding-right: 12px;
+        padding-top: 12vh;
+        padding-left: 0;
     }
 }
 
 .about-animation {
     display: flex;
-    align-items: center;
-    font-family: 'Gayathri', sans-serif;
-    font-weight: 300;
+    align-items: last baseline;
+    font-family: 'Syne', sans-serif; 
+    font-weight: 100;
+    margin: 0;
 }
 
 
@@ -263,6 +268,7 @@ a.home-link:hover {
       flex-direction: column;
       justify-content: center;
       gap: 4rem;
+      margin: 0;
     }
   }
 

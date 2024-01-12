@@ -5,6 +5,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat Alternates', sans-serif;
 font-family: 'MuseoModerno', sans-serif;
 font-family: 'Playfair Display', serif;
+font-family: 'Syne', sans-serif; 
 font-family: 'Space Mono', monospace; */
 
 
@@ -106,7 +107,7 @@ a.home-link:hover {
     font-family: 'Syne', sans-serif; 
     font-weight: 400;
     margin: 0;
-    padding: 0;
+    margin-bottom: 4vh;
     font-size:  40vh;
 
     @media screen and (max-width: 1200px) {
@@ -118,7 +119,7 @@ a.home-link:hover {
 
   .hello {
     animation: animate 2s linear;
-    font-family: 'Gayathri', sans-serif;
+    font-family: 'Syne', sans-serif;
   }
   
   @keyframes animate {
@@ -131,6 +132,10 @@ a.home-link:hover {
       }
   }
   
+
+  .about-txt-container {
+    padding-left: 3vh;
+  }
   ul {
    font-family: 'Gayathri', sans-serif;
     font-style: italic;
