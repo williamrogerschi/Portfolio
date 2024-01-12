@@ -114,7 +114,7 @@ a.home-link:hover {
   margin: 0;
   font-size: 12vw;
   margin-right: 2.4rem;
-  animation-name: slideDown;
+  animation-name: slideUp;
   animation-duration: 1.25s;
   animation-timing-function: ease;
   opacity: 0;
@@ -130,10 +130,10 @@ a.home-link:hover {
   }
 }
 
-@keyframes slideDown {
+@keyframes slideUp {
   0% {
     opacity: 0;
-    transform: translateY(-200px);
+    transform: translateY(200px);
   }
   100% {
     opacity: 1;
