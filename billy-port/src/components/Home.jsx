@@ -7,6 +7,7 @@ const Home = () => {
     return (
         <>
             <Side />
+            {/* <Scroll /> */}
             <div className='home-wrapper'>
                 <div className='home-container'>
                     <div className='home-content'>

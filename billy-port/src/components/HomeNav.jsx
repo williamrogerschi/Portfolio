@@ -1,5 +1,5 @@
-import { Link, useLocation } from 'react-router-dom';
-import React from 'react';
+import { Link, useLocation } from 'react-router-dom'
+import React from 'react'
 
 function HomeNav({ isSticky }) {
   return (
@@ -8,7 +8,7 @@ function HomeNav({ isSticky }) {
         Home
       </Link>
     </div>
-  );
+  )
 }
 
-export default HomeNav;
+export default HomeNav

@@ -1,6 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
 import HomeNav from './HomeNav'
-import { Link } from 'react-router-dom'
 import './about.css'
 
 const About = () => {
