@@ -229,13 +229,15 @@ h1 {
   @media screen and (max-width: 1200px) {
     padding: 30px 16px;
   }
+
 }
-/* 
-.work-container:hover{
-	box-shadow: 5px 5px 1px 0px;
-  transition: box-shadow 300ms ease 0s, transform 300ms ease 0s;
-  transform: translate(-4px, -4px);
-} */
+
+@media screen and (max-width: 1200px)  {
+  .work-container {
+      border: 6px solid;
+      box-shadow: 12px 12px 1px 3px;
+  }
+}
 
 .work-img-wrapper {
   display: flex;
