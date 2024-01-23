@@ -55,9 +55,6 @@ const About = () => {
                             <div className='resume-btn-wrapper'>
                                 <a href='https://drive.google.com/file/d/1N5YG8noAxEihHPyu8D1mGjXPN0CNLlCi/view?usp=sharing' target='_blank' className='resume-btn'>Resume</a>
                             </div>
-                            {/* <div className='resume-btn-wrapper'>
-                                <Link className='resume-btn' to='/Contact'>Contact</Link>
-                            </div> */}
                             </div>
                         </div>
                     </div>
