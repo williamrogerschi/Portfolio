@@ -173,6 +173,7 @@ h1 {
 }
 
 .work-li {
+
   padding-top: 12px;
   margin-bottom: -20px;
   visibility: visible !important;
@@ -181,12 +182,9 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* opacity: 0;
-  filter: blur(5px);
-  animation: fadeInText 2s forwards; */
+
   
   @media screen and (max-width: 1200px) {
-    padding-top: 8rem;
     padding-bottom: 1rem;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -208,14 +206,16 @@ h1 {
   font-size: 4vh;
   font-weight: 500;
   font-style: italic;
+
+  @media screen and (max-width: 1200px) {
+    padding-top: 8rem;
+  }
 }
 
 .work-li span {
   transition:  500ms ease;
 }
 
-@media screen and (max-width: 1000px) {
-}
 
 .work-container {
   padding: 1rem;
@@ -241,9 +241,10 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 2vh 2vh;
+  margin: 2vh;
 
   @media screen and (max-width: 1200px) {
+    margin: 1vh;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -309,7 +310,7 @@ p.work-p {
   padding-bottom: 4px;
 
   @media screen and (max-width: 1200px) {
-    font-size: 2vh;
+    font-size: 1.2vh;
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
@@ -344,7 +345,7 @@ p.work-p {
 
   @media screen and (max-width: 1200px) {
     padding-top: 1vh;
-    padding-left: 2vh;
+    padding-left: 1vh;
     font-size: 1rem;
   }
 }
