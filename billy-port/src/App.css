@@ -19,6 +19,77 @@ font-family: 'Syne', sans-serif;
 font-family: 'Cormorant', serif;
 font-famiily: 'Manrope', sans-serif; */
   
+@font-face {
+  font-family: 'Nordlig';
+  src: url('./fonts/Nordlig.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Benord';
+  src: url('./fonts/Benord.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Doppleganger';
+  src: url('./fonts/Doppleganger.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Ragas';
+  src: url('./fonts/Ragas.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Anomega';
+  src: url('./fonts/Anomega.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gerbil';
+  src: url('./fonts/Gerbil.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Night';
+  src: url('./fonts/TheNightWatch.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Man';
+  src: url('./fonts/Man.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Monument';
+  src: url('./fonts/MonumentExtendedRegular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'NyghtSerif';
+  src: url('./fonts/NyghtSerif-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'NyghtSerifItalic';
+  src: url('./fonts/NyghtSerif-Italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Woodland';
+  src: url('./fonts/WoodlandLight.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Woodland-Bold';
+  src: url('./fonts/WoodlandBold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Garcia';
+  src: url('./fonts/GarciaMarquez.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Kayak Sans Regular';
+  src: url('./fonts/ayak Sans Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Kayak Sans Regular(Italic)';
+  src: url('./fonts/Kayak Sans Regular (Italic).otf') format('opentype');
+}
+
+
+
+
+
+
+
 html,
 body {
   margin: 0;
@@ -97,9 +168,25 @@ body {
 
 h2 {
   font-family: 'MuseoModerno', sans-serif;
-  font-weight: 400;
+  font-family: 'Nordlig', sans-serif;
+  font-family: 'Anomega', sans-serif;
+  font-family: 'Monument', sans-serif;
+  font-family: 'NyghtSerif', sans-serif;
+  font-family: 'NyghtSerifItalic', sans-serif;
+  font-family: 'Kayak Sans Regular', sans-serif;
+  font-family: 'Woodland', sans-serif;
+  font-family: 'Woodland-Bold', sans-serif;
+  font-family: 'Man', sans-serif;
+  font-family: 'Benord', serif;
+  font-family: 'Night', serif;
+  font-family: 'Garcia', sans-serif;
+  font-family: 'Ragas', sans-serif;
+  font-family: 'Doppleganger', sans-serif;
+  font-family: 'Gerbil', sans-serif;
+  font-weight: 100;
+  /* letter-spacing: 4px; */
   margin: 0px;
-  font-size: 4vh;
+  font-size: 8vh;
 }
 
 p {
