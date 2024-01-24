@@ -24,6 +24,7 @@ a.home-link {
     font-family: 'Face', sans-serif;
     font-weight: 200;
     font-size: 2vh;
+    z-index: 10000;
 
     @media  screen and (max-width: 1200px) {
       transform: none;
@@ -32,6 +33,7 @@ a.home-link {
       flex-direction: row;
       margin: 0 12vw;
       font-size: 3.5vw;
+      z-index: 10000;
   }
 }
 
