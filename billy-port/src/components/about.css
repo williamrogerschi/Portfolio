@@ -336,7 +336,9 @@ span.about-exp {
 }
 
 .resume-btn {
-    font-family: 'MuseoModerno', sans-serif;
+    font-family: 'March', sans-serif;
+    font-size: 2vh;
+    letter-spacing: 2px;
     font-weight: 400;
     text-decoration: none;
     background-color: var(--light-button-bg);
@@ -348,7 +350,6 @@ span.about-exp {
 }
 
 .resume-btn:hover {
-    font-family: 'MuseoModerno', sans-serif;
     background-color: var(--light-button-bg);
     color: var(--light-button-color);
     border: none;

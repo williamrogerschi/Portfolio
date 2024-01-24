@@ -19,91 +19,42 @@ font-family: 'Syne', sans-serif;
 font-family: 'Cormorant', serif;
 font-famiily: 'Manrope', sans-serif; */
   
-@font-face {
-  font-family: 'Nordlig';
-  src: url('./fonts/Nordlig.otf') format('opentype');
-}
-@font-face {
-  font-family: 'Benord';
-  src: url('./fonts/Benord.otf') format('opentype');
-}
-@font-face {
-  font-family: 'Doppleganger';
-  src: url('./fonts/Doppleganger.otf') format('opentype');
-}
-@font-face {
-  font-family: 'Ragas';
-  src: url('./fonts/Ragas.otf') format('opentype');
-}
-@font-face {
-  font-family: 'Anomega';
-  src: url('./fonts/Anomega.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Tenbaum';
-  src: url('./fonts/Tenbaum.ttf') format('truetype');
-}
+
+
+
 @font-face {
   font-family: 'Gerbil';
-  src: url('./fonts/Gerbil.ttf') format('truetype');
+  src: url('./Gerbil.ttf') format('truetype');
 }
-@font-face {
-  font-family: 'Night';
-  src: url('./fonts/TheNightWatch.ttf') format('truetype');
-}
+
 @font-face {
   font-family: 'Man';
-  src: url('./fonts/Man.ttf') format('truetype');
+  src: url('./Man.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Monument';
-  src: url('./fonts/MonumentExtendedRegular.otf') format('opentype');
-}
-@font-face {
-  font-family: 'MonumentBlack';
-  src: url('./fonts/MonumentExtendedBlack.otf') format('opentype');
-}
-@font-face {
-  font-family: 'NyghtSerif';
-  src: url('./fonts/NyghtSerif-Regular.otf') format('opentype');
-}
-@font-face {
-  font-family: 'NyghtSerifItalic';
-  src: url('./fonts/NyghtSerif-Italic.otf') format('opentype');
+  src: url('./MonumentExtendedRegular.otf') format('opentype');
 }
 @font-face {
   font-family: 'Woodland';
-  src: url('./fonts/WoodlandLight.otf') format('opentype');
+  src: url('./WoodlandLight.otf') format('opentype');
 }
 @font-face {
   font-family: 'Woodland-Bold';
-  src: url('./fonts/WoodlandBold.otf') format('opentype');
-}
-@font-face {
-  font-family: 'Garcia';
-  src: url('./fonts/GarciaMarquez.otf') format('opentype');
+  src: url('./WoodlandBold.otf') format('opentype');
 }
 @font-face {
   font-family: 'Kayak Sans Regular';
-  src: url('./fonts/ayak Sans Regular.otf') format('opentype');
-}
-@font-face {
-  font-family: 'Kayak Sans Regular(Italic)';
-  src: url('./fonts/Kayak Sans Regular (Italic).otf') format('opentype');
+  src: url('./ayak Sans Regular.otf') format('opentype');
 }
 @font-face {
   font-family: 'Face';
-  src: url('./fonts/NeutralFace.otf') format('opentype');
+  src: url('./NeutralFace.otf') format('opentype');
 }
 @font-face {
   font-family: 'March';
-  src: url('./fonts/March.otf') format('opentype');
+  src: url('./March.otf') format('opentype');
 }
-
-
-
-
-
 
 
 
