@@ -145,9 +145,25 @@ p {
     }
 
     @media screen and (min-width: 999px)  {
-      font-size: 2vh;
+      font-size: 1.8vh;
       min-width: 50%;
     }
+}
+
+.headline-p {
+  font-family: 'Kayak Sans Regular', sans-serif;
+  font-weight: 400;
+  margin-bottom: 1px;
+
+  @media screen and (max-width: 1200px)  {
+    font-size: 1.5vh;
+    min-width: 50%;
+  }
+
+  @media screen and (min-width: 999px)  {
+    font-size: 2.2vh;
+    min-width: 50%;
+  }
 }
 
 .main-link {
@@ -273,7 +289,7 @@ a.side-link {
 
 .side-link:hover {
   text-decoration: line-through;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
 }
 
 .nav-link {
