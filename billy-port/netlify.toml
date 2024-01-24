@@ -10,15 +10,15 @@
   force = true
   headers = { Content-Type = "font/opentype" }
 
-  [[redirects]]
+[[redirects]]
   from = "/*.ttf"
   to = "/:splat"
   status = 200
   force = true
   headers = { Content-Type = "font/truetype" }
 
-  [[redirects]]
-  from = "/assets/*"
+[[redirects]]
+  from = "/*"
   to = "/:splat"
   status = 200
   force = true

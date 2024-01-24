@@ -24,36 +24,36 @@ font-famiily: 'Manrope', sans-serif; */
 
 @font-face {
   font-family: 'Gerbil';
-  src: url('./assets/Gerbil.ttf') format('truetype');
+  src: url('./Gerbil.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Man';
-  src: url('./assets/Man.ttf') format('truetype');
+  src: url('./Man.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Monument';
-  src: url('./assets/MonumentExtendedRegular.otf') format('opentype');
+  src: url('./MonumentExtendedRegular.otf') format('opentype');
 }
 @font-face {
   font-family: 'Woodland';
-  src: url('./assets/WoodlandLight.otf') format('opentype');
+  src: url('./WoodlandLight.otf') format('opentype');
 }
 @font-face {
   font-family: 'Woodland-Bold';
-  src: url('./assets/WoodlandBold.otf') format('opentype');
+  src: url('./WoodlandBold.otf') format('opentype');
 }
 @font-face {
   font-family: 'Kayak Sans Regular';
-  src: url('./assets/Kayak Sans Regular.otf') format('opentype');
+  src: url('./Kayak Sans Regular.otf') format('opentype');
 }
 @font-face {
   font-family: 'Face';
-  src: url('./assets/NeutralFace.otf') format('opentype');
+  src: url('./NeutralFace.otf') format('opentype');
 }
 @font-face {
   font-family: 'March';
-  src: url('./assets/March.otf') format('opentype');
+  src: url('./March.otf') format('opentype');
 }
 
 
