@@ -11,7 +11,7 @@
     @media screen and (max-width: 1200px) {
       height: auto;
       padding-top: 0;
-      padding-left: 10px;
+      padding-left: 1rem;
       width: auto;
       }
 }
