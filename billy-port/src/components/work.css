@@ -156,7 +156,6 @@ h1 {
 }
 
 .work-li {
-
   padding-top: 12px;
   margin-bottom: -20px;
   visibility: visible !important;
@@ -171,7 +170,7 @@ h1 {
     padding-bottom: 1rem;
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 12vh;
+    font-size: 9vh;
   }
 
   @media screen and (max-width: 800px) {
@@ -186,11 +185,11 @@ h1 {
   font-style: normal;
   list-style: none;
   text-decoration: none;
-  font-size: 4vh;
+  font-size: 3.5vh;
   font-weight: 500;
 
   @media screen and (max-width: 1200px) {
-    padding-top: 8rem;
+    padding-top: 6rem;
   }
 }
 
@@ -201,7 +200,7 @@ h1 {
 
 .work-container {
   padding: 1rem;
-  margin-bottom: 48px;
+  margin-bottom: 80px;
   border: 2px solid;
   min-width: 75%;
   box-shadow: 5px 5px 1px 0px;
@@ -209,15 +208,17 @@ h1 {
 
 
   @media screen and (max-width: 1200px) {
-    padding: 30px 16px;
+    padding: 20px 10px;
   }
 
 }
 
 @media screen and (max-width: 1200px)  {
   .work-container {
-      border: 6px solid;
-      box-shadow: 12px 12px 1px 3px;
+    margin: 4rem 0;
+    border: 4px solid;
+    box-shadow: none;
+    /* box-shadow: 12px 12px 1px 0px; */
   }
 }
 
@@ -317,6 +318,11 @@ p.work-p {
   padding-top: 2.5em;
   padding-bottom: 0.25rem;
   border-bottom: 0.12rem solid;
+
+  @media screen and (max-width: 1200px) {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
 }
 
 .work-li-desc {
@@ -330,9 +336,7 @@ p.work-p {
   padding: 6px 0px;
 
   @media screen and (max-width: 1200px) {
-    padding-top: 1vh;
-    padding-left: 1vh;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -344,7 +348,7 @@ p.work-p {
 
   @media screen and (max-width: 1200px) {
     padding-top: 12px;
-    font-size: 3vh;
+    font-size: 2vh;
   }
 }
 
