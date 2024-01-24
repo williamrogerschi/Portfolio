@@ -33,7 +33,7 @@ const About = () => {
                                 </div>
                                 <div className='experience-content'>
                                     <span className='about-exp'> <span className="prof-span">Software Engineering Certificate</span> 12 week, 400+ hour intensive bootcamp at General Assembly  | </span> <span className='about-exp'>December 2023</span>
-                                    <p className='about-exp'> <span className="prof-span">Degree in Business Administration</span> from Northeastern Illinois University | May 2021</p>
+                                    <p className='about-exp'> <span className="prof-span">Degree in Business Administration</span> from Northeastern Illinois University | Summa Cum Laude | May 2021</p>
                                 </div>
                             </div>
 

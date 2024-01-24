@@ -27,7 +27,7 @@ a.home-link {
     padding: 10px 0px 70px 0px;
     text-decoration: none;
     color: #1A1818;
-    font-family: 'Gayathri', sans-serif;
+    font-family: 'Face', sans-serif;
     font-weight: 200;
     font-size: 2vh;
 
@@ -46,7 +46,7 @@ a.home-link:hover {
   padding: 10px 0px 70px 0px;
   text-decoration: line-through;
   color: #1A1818;
-  font-family: 'Gayathri', sans-serif;
+  font-family: 'Face', sans-serif;
   font-weight: 300;
   font-size: 2vh;
   
@@ -102,8 +102,6 @@ a.home-link:hover {
 }
 
   .hello{
-    font-family: 'Syne', sans-serif; 
-    font-weight: 400;
     margin: 0;
     margin-bottom: 4vh;
     font-size:  40vh;
@@ -117,7 +115,7 @@ a.home-link:hover {
 
   .hello {
     animation: animate 2s linear;
-    font-family: 'Syne', sans-serif;
+    font-family: 'March', sans-serif;
   }
   
   @keyframes animate {
@@ -154,11 +152,11 @@ a.home-link:hover {
   }
 
   .about-p {
-    font-family: 'MuseoModerno', sans-serif;
-    font-weight: 200;
-    font-size: 2.2vh;
+    font-family: 'Kayak Sans Regular', sans-serif;
+    font-weight: 400;
+    font-size: 2.6vh;
     margin-top: -80px;
-    padding: 0;
+    padding-bottom: 0.5rem;
 
     @media screen and (max-width: 1200px) {
       font-size: 2.3vh;
@@ -166,6 +164,7 @@ a.home-link:hover {
   }
   
   .li-contact {
+    font-family: 'Face', sans-serif;
     font-style: normal;
     list-style: none;
     font-size: 2vh;
@@ -177,12 +176,13 @@ a.home-link:hover {
   }
   
   .li-link {
-    font-family: 'Gayathri', sans-serif;
-    font-style: italic;
+    font-family: 'Gerbil', sans-serif;
+    /* font-style: italic; */
+    letter-spacing: 1px;
     color: #1A1818;
     padding-left: 5px;
     padding-right: 5px;
-    font-size: 1.8vh;
+    font-size: 2.2vh;
 
     @media screen and (max-width: 1200px) {
       font-size: 3vh;
@@ -203,7 +203,7 @@ a.home-link:hover {
   }
 
   span.text {
-    font-family: 'Gayathri', sans-serif;
+    font-family: 'Face', sans-serif;
     font-weight: 300;
     margin: 0;
     padding: 0;

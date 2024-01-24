@@ -16,6 +16,89 @@ font-family: 'Space Grotesk', sans-serif;
 font-family: 'Syne', sans-serif; */
 
 
+@font-face {
+  font-family: 'Nordlig';
+  src: url('./fonts/Nordlig.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Benord';
+  src: url('./fonts/Benord.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Doppleganger';
+  src: url('./fonts/Doppleganger.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Ragas';
+  src: url('./fonts/Ragas.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Anomega';
+  src: url('./fonts/Anomega.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Tenbaum';
+  src: url('./fonts/Tenbaum.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gerbil';
+  src: url('./fonts/Gerbil.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Night';
+  src: url('./fonts/TheNightWatch.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Man';
+  src: url('./fonts/Man.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Monument';
+  src: url('./fonts/MonumentExtendedRegular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'MonumentBlack';
+  src: url('./fonts/MonumentExtendedBlack.otf') format('opentype');
+}
+@font-face {
+  font-family: 'NyghtSerif';
+  src: url('./fonts/NyghtSerif-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'NyghtSerifItalic';
+  src: url('./fonts/NyghtSerif-Italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Woodland';
+  src: url('./fonts/WoodlandLight.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Woodland-Bold';
+  src: url('./fonts/WoodlandBold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Garcia';
+  src: url('./fonts/GarciaMarquez.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Kayak Sans Regular';
+  src: url('./fonts/ayak Sans Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Kayak Sans Regular(Italic)';
+  src: url('./fonts/Kayak Sans Regular (Italic).otf') format('opentype');
+}
+@font-face {
+  font-family: 'Face';
+  src: url('./fonts/NeutralFace.otf') format('opentype');
+}
+@font-face {
+  font-family: 'march';
+  src: url('./fonts/March.otf') format('opentype');
+}
+
+
+
 .work-wrapper {
   display: flex;
   flex-direction: row;
@@ -47,12 +130,11 @@ font-family: 'Syne', sans-serif; */
   }
 }
 
-
 .home-link {
   transform: rotate(270deg);
   padding: 10px 0px 70px 0px;
   text-decoration: none;
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: 'Face', sans-serif;
   font-weight: 200;
   font-size: 1.5vh;
 
@@ -70,7 +152,7 @@ font-family: 'Syne', sans-serif; */
   transform: rotate(270deg);
   padding: 10px 0px 70px 0px;
   text-decoration: line-through;
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: 'Face', sans-serif;
   font-weight: 300;
   font-size: 1.5vh;
 
@@ -96,7 +178,6 @@ font-family: 'Syne', sans-serif; */
       padding-top: 40px;
   }
 }
-
 
 .header-wrapper {
   padding: 0;
@@ -127,7 +208,8 @@ font-family: 'Syne', sans-serif; */
 h1 {
   display: flex;
   justify-content: start;
-  font-family: 'Syne', sans-serif; 
+  font-family: 'March', sans-serif; 
+  letter-spacing: 0.5rem;
   font-weight: 100;
   margin: 0;
   padding: 0;
@@ -157,7 +239,7 @@ h1 {
 }
 
 .work-list {
-  margin-top: -50vh;
+  margin-top: -40vh;
   max-width: 40%;
   margin-left: 55%;
 
@@ -199,13 +281,12 @@ h1 {
 }
 
 .work-li .title {
-  font-family: 'Gayathri', sans-serif;
+  font-family: 'Face', sans-serif;
   font-style: normal;
   list-style: none;
   text-decoration: none;
   font-size: 4vh;
   font-weight: 500;
-  font-style: italic;
 
   @media screen and (max-width: 1200px) {
     padding-top: 8rem;
@@ -301,14 +382,14 @@ h1 {
   width: 100%;
   height: 100%;
   transition: transform 0.5s ease-in-out;
+
 }
 
 p.work-p {
-  font-family: 'MuseoModerno', sans-serif;
-  font-weight: 200;
+  font-family: 'Kayak Sans Regular', sans-serif;
   font-size: 2vh;
   margin: 0;
-  padding-top: 12px;
+  padding-top: 2rem;
   padding-bottom: 4px;
 
   @media screen and (max-width: 1200px) {
@@ -319,10 +400,11 @@ p.work-p {
 }
 
 .work-li-p {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Kayak Sans Regular', sans-serif;
+  font-weight: 400;
   padding-bottom: 0.5rem;
   margin: 0;
-  font-size: 1.7vh;
+  font-size: 2vh;
 
   @media screen and (max-width: 1200px) {
     font-size: 2vh;
@@ -331,17 +413,18 @@ p.work-p {
 }
 
 .work-p-container {
-  padding-top: 1.5rem;
-  padding-bottom: 1.2rem;
+  padding-top: 2.5em;
+  padding-bottom: 0.25rem;
   border-bottom: 0.12rem solid;
 }
 
 .work-li-desc {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Kayak Sans Regular', sans-serif;
   font-style: normal;
   margin: 0;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 40px;
+  margin-left: 1rem;
   font-size: 2vh;
   padding: 6px 0px;
 
@@ -353,6 +436,7 @@ p.work-p {
 }
 
 .li-work {
+  font-family: 'Face', sans-serif;
   font-style: normal;
   list-style: none;
   font-size: 2vh;
