@@ -24,36 +24,36 @@ font-famiily: 'Manrope', sans-serif; */
 
 @font-face {
   font-family: 'Gerbil';
-  src: url('./Gerbil.ttf') format('truetype');
+  src: url('./Gerbil.ttf');
 }
 
 @font-face {
   font-family: 'Man';
-  src: url('./Man.ttf') format('truetype');
+  src: url('./Man.ttf');
 }
 @font-face {
   font-family: 'Monument';
-  src: url('./MonumentExtendedRegular.otf') format('opentype');
+  src: url('./MonumentExtendedRegular.otf');
 }
 @font-face {
   font-family: 'Woodland';
-  src: url('./WoodlandLight.otf') format('opentype');
+  src: url('./WoodlandLight.otf');
 }
 @font-face {
   font-family: 'Woodland-Bold';
-  src: url('./WoodlandBold.otf') format('opentype');
+  src: url('./WoodlandBold.otf');
 }
 @font-face {
   font-family: 'Kayak Sans Regular';
-  src: url('./ayak Sans Regular.otf') format('opentype');
+  src: url('./Kayak Sans Regular.otf');
 }
 @font-face {
   font-family: 'Face';
-  src: url('./NeutralFace.otf') format('opentype');
+  src: url('./NeutralFace.otf');
 }
 @font-face {
   font-family: 'March';
-  src: url('./March.otf') format('opentype');
+  src: url('./March.otf');
 }
 
 
