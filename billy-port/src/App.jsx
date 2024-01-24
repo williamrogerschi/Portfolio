@@ -13,7 +13,6 @@ function App() {
   const [isDark, setIsDark] = useLocalStorage('isDark', defaultDark)
 
   return (
-<>
     <div className='App' data-theme={isDark ? 'dark' : 'light'}>
       <Toggle
         isChecked={isDark}
@@ -21,7 +20,6 @@ function App() {
       />
       <Main />
     </div>
-</>
   )
 }
 

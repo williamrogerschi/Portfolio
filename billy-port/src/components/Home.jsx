@@ -5,9 +5,8 @@ import Side from './Side'
 const Home = () => {
 
     return (
-        <>
+        <div className='home'>
             <Side />
-            {/* <Scroll /> */}
             <div className='home-wrapper'>
                 <div className='home-container'>
                     <div className='home-content'>
@@ -19,7 +18,7 @@ const Home = () => {
                     <Nav />
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 export default Home
