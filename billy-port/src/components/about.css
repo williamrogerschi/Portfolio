@@ -176,8 +176,9 @@ a.home-link:hover {
     display: inline;
     font-family: 'Kayak Sans Regular', sans-serif;
     padding-top: 40px;
-    font-weight: 400;
-    font-size: 2.5vh;
+    font-weight: 100;
+    font-size: 2.4vh;
+    letter-spacing: 0.1px;
     max-width: 60%;
     margin-top: -130px;
     
@@ -292,7 +293,7 @@ a.home-link:hover {
 
 span.about-exp {
     font-family: 'Kayak Sans Regular', sans-serif;
-    font-size: 2vh;
+    font-size: 2.2vh;
 
     @media screen and (max-width: 1200px) {
       font-size: 2vh;
@@ -301,7 +302,7 @@ span.about-exp {
 
 .about-exp {
   font-family: 'Kayak Sans Regular', sans-serif;
-  font-size: 2vh;
+  font-size: 2.2vh;
 
   @media screen and (max-width: 1200px) {
     font-size: 2vh;
