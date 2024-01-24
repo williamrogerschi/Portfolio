@@ -11,7 +11,7 @@ const About = () => {
   
 
     return (
-        <>
+        <div className='about'>
           <HomeNav />
             <div className="about-wrapper">
                 <div className="about-content">
@@ -29,7 +29,7 @@ const About = () => {
                         <div className='about-cards'>
                             <div className='experience-wrapper'>
                                 <div className='experience'>
-                                    <p className='experience-header'>Experience</p>
+                                    <p className='experience-header'>Education</p>
                                 </div>
                                 <div className='experience-content'>
                                     <span className='about-exp'> <span className="prof-span">Software Engineering Certificate</span> 12 week, 400+ hour intensive bootcamp at General Assembly  | </span> <span className='about-exp'>December 2023</span>
@@ -60,7 +60,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
