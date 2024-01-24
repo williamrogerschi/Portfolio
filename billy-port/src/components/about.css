@@ -48,6 +48,7 @@ a.home-link:hover {
     font-family: 'Face', sans-serif;
     font-weight: 300;
     font-size: 1.5vh;
+    z-index: 10000;
 
     @media screen and (max-width: 1200px) {
         transform: none;
@@ -56,6 +57,7 @@ a.home-link:hover {
         flex-direction: row;
         margin: 0 12vw;
         font-size: 3.5vw;
+        z-index: 10000;
     }
 }
 
