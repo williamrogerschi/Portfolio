@@ -4,8 +4,8 @@
   status = 200
 
   [[redirects]]
-  from = "/assets/*.ttf"
+  from = "/assets/*.otf"
   to = "/assets/:splat"
   status = 200
   force = true
-  headers = { Content-Type = "font/ttf" }
+  headers = { Content-Type = "font/otf" }
