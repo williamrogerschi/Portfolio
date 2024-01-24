@@ -4,15 +4,22 @@
   status = 200
 
 [[redirects]]
-  from = "/assets/*.otf"
+  from = "/*.otf"
   to = "/assets/:splat"
   status = 200
   force = true
   headers = { Content-Type = "font/opentype" }
 
   [[redirects]]
-  from = "/assets/*.ttf"
+  from = "/*.ttf"
   to = "/assets/:splat"
   status = 200
   force = true
   headers = { Content-Type = "font/truetype" }
+
+  [[redirects]]
+  from = "/assets/*"
+  to = "/:splat"
+  status = 200
+  force = true
+  headers = { Content-Type = "font/:splat" }
