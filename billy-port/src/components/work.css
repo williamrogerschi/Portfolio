@@ -149,7 +149,6 @@ h1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 12rem;
     margin: 0 auto;
     max-width: 100%;
     font-size: 3vh;
@@ -190,7 +189,7 @@ h1 {
   font-weight: 500;
 
   @media screen and (max-width: 1200px) {
-    padding-top: 6rem;
+    /* padding-top: 6rem; */
   }
 }
 
@@ -219,7 +218,6 @@ h1 {
     margin: 4rem 0;
     border: 4px solid;
     box-shadow: none;
-    /* box-shadow: 12px 12px 1px 0px; */
   }
 }
 
@@ -243,7 +241,6 @@ h1 {
   @media screen and (max-width: 1200px) {
     max-width: 100%;
     padding: 0;
-    margin-top: -3vh;
 }
 }
 
@@ -266,8 +263,8 @@ h1 {
   overflow: hidden;
 
   @media screen and (max-width: 1200px) {
-    width: 14.5vh;
-    height: 10vh;
+    width: 42vh;
+    height: 25vh;
   }
 }
 
@@ -293,12 +290,9 @@ p.work-p {
   font-size: 2vh;
   margin: 0;
   padding-top: 2rem;
-  padding-bottom: 4px;
 
   @media screen and (max-width: 1200px) {
-    font-size: 1.6vh;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    font-size: 2vh;
   }
 }
 
@@ -348,11 +342,18 @@ p.work-p {
   font-size: 2vh;
 
   @media screen and (max-width: 1200px) {
-    padding-top: 12px;
-    font-size: 2vh;
+    font-size: 1.75vh;
   }
 }
 
 .work-ul {
-  padding-top: 2rem;
+  padding-top: 3rem;
+}
+
+a.li-link{
+
+    @media screen and (max-width: 1200px) {
+    font-size: 2.5vh;
+  }
+  
 }

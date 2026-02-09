@@ -89,7 +89,7 @@ body {
 }
 
 .home-content {
-  padding-top: 15vh;
+  padding-left: 3vh;
   width: 30%;
   max-width: 50vw;
   min-width: 120px;
@@ -102,7 +102,7 @@ body {
     padding-top: 12px;
     padding-left: 2.5vh;
     margin: 0;
-    min-width: 75%;
+    min-width: fit-content
   }
 }
 
@@ -130,7 +130,8 @@ p {
 
 @media screen and (max-width: 1200px) {
   h2 {
-    font-size: 6vh;
+    font-size: 10vh;
+    max-width: 80%;
   }
 }
 
@@ -142,12 +143,14 @@ p {
 
     @media screen and (max-width: 1200px)  {
       font-size: 1vh;
-      min-width: 50%;
+      max-width: 60%;
+      margin-top: 0.5vh;
     }
 
     @media screen and (min-width: 999px)  {
       font-size: 1.8vh;
-      min-width: 50%;
+      min-width: 60%;
+      margin-top: 0.5vh;
     }
 }
 
@@ -158,12 +161,14 @@ p {
 
   @media screen and (max-width: 1200px)  {
     font-size: 1.5vh;
-    min-width: 50%;
+    min-width: fit-content;
+    margin-top: 0.5vh;
   }
 
   @media screen and (min-width: 999px)  {
     font-size: 2.2vh;
-    min-width: 50%;
+    min-width: fit-content;
+    margin-top: 0.5vh;
   }
 }
 
@@ -201,7 +206,7 @@ a.link {
 
 
   @media screen and (max-width: 1200px) {
-    font-size: 10vh;
+    font-size: 12vh;
   }
 }
 

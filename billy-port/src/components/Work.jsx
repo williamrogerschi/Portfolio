@@ -85,10 +85,28 @@ const Work = () => {
                         <div className="work-container">
                             <div className='work-img-wrapper'>
                                 <div className='work-title-wrapper'>
+                                    <p className="work-li"><span className='title'>Weather App </span></p>
+                                    <div className='work-p-container'>
+                                        <p className='work-li-p'>When you need to know what outfit to wear!</p>
+                                        <p className='work-li-p'>Tech Stack: MERN ◍ Rest API ◍ CSS ◍ React</p>
+                                    </div>
+                                </div>
+                                <div className='project-img-wrapper'>
+                                    <div className='project-img-container'>
+                                        <a href="https://wumpy-weather.netlify.app/" target='_blank'  ><img className='project-img' src='./weather-grainy.jpg' /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className='work-li-desc'>A simple and clean weather app. Fetches the weather, a 2 day outlook, and other data such as pressure, chaince of rain, wind and more!</p>
+                        </div>
+
+                        <div className="work-container">
+                            <div className='work-img-wrapper'>
+                                <div className='work-title-wrapper'>
                                     <p className="work-li"><span className='title'>Cocktail Party </span></p>
                                     <div className='work-p-container'>
                                         <p className='work-li-p'>What's a party without some cocktails and some recipes...</p>
-                                        <p className='work-li-p'>Tech Stack: MERN ◍ REST API ◍ CSS</p>
+                                        <p className='work-li-p'>Tech Stack: MERN ◍ Rest API ◍ CSS</p>
                                     </div>
                                 </div>
                                 <div className='project-img-wrapper'>
