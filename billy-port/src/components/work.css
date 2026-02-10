@@ -359,7 +359,7 @@ p.work-p {
 
   @media screen and (max-width: 1200px) {
     font-size: 1.75vh;
-    text-decoration: none;
+    text-decoration: none !important;
   }
 }
 }

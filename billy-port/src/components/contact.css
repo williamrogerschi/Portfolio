@@ -161,7 +161,7 @@ a.home-link:hover {
 
     @media screen and (max-width: 1200px) {
       font-size: 1.5vh;
-      text-decoration: none;
+      text-decoration: none !important;
     }
   }
   
