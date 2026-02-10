@@ -358,12 +358,13 @@ p.work-p {
 
   @media screen and (max-width: 1200px) {
     font-size: 1.75vh;
+    text-decoration: none;
   }
 }
 }
 
 .work-ul {
-  padding-top: 2.5vh;
+  padding-top: 3vh;
 }
 
 a.li-link{
