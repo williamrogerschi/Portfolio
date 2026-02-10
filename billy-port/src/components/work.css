@@ -168,8 +168,8 @@ h1 {
   
   @media screen and (max-width: 1200px) {
     padding-bottom: 1rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 0.25rem;
     font-size: 9vh;
   }
 
@@ -342,7 +342,7 @@ p.work-p {
   font-size: 2vh;
 
   @media screen and (max-width: 1200px) {
-    font-size: 1.75vh;
+    font-size: 1.5vh;
   }
 }
 
