@@ -157,6 +157,7 @@ a.home-link:hover {
     padding-left: 5px;
     padding-right: 5px;
     font-size: 2.2vh;
+    text-decoration: none;
 
     @media screen and (max-width: 1200px) {
       font-size: 1.5vh;
