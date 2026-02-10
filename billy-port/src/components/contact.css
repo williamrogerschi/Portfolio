@@ -68,19 +68,25 @@ a.home-link:hover {
   display: grid;
   place-items: center;
   padding: 10px;
+  margin-top: 10vh;
 
   @media screen and (max-width: 1200px) {
     display: grid;
     place-items: center;
-    margin-top: 10vh;
     max-width: 75%;
   }
 }
 
   .hello {
-    /* margin-bottom: 3.5vh; */
     animation: animate 2s linear;
     font-family: 'March', sans-serif;
+    line-height: 0.9;
+    margin-bottom: 2vh;
+
+    @media screen and (max-width: 1200px) {
+      line-height: 0.85;
+      margin-bottom: 1vh;
+    }
   }
   
   @keyframes animate {
@@ -91,6 +97,16 @@ a.home-link:hover {
       animation-play-state: paused;
        opacity: 1;
       }
+}
+
+.contact-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @media screen and (max-width: 1200px) {
+    align-items: flex-start;
+  }
 }
 
   .index-module_type__E-SaG {
@@ -119,7 +135,7 @@ a.home-link:hover {
 
     
     @media screen and (max-width: 1200px) {
-      padding-top: 2rem;
+      padding-top: 1rem;
     }
   }
 
@@ -131,7 +147,19 @@ a.home-link:hover {
     margin-top: 0;
 
     @media screen and (max-width: 1200px) {
-      font-size: 2.3vh;
+      font-size: 2.2vh;
+    }
+  }
+
+  .li-text {
+    font-family: 'Face', sans-serif;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 2.2vh;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 1.5vh;
     }
   }
   
@@ -140,6 +168,7 @@ a.home-link:hover {
     font-style: normal;
     list-style: none;
     font-size: 2vh;
+    white-space: nowrap;
   
     @media screen and (max-width: 1200px) {
       padding-top: 0.5rem;
@@ -155,7 +184,7 @@ a.home-link:hover {
     padding-left: 5px;
     padding-right: 5px;
     font-size: 2.2vh;
-
+    white-space: nowrap;
     @media screen and (max-width: 1200px) {
       font-size: 3vh;
     } 

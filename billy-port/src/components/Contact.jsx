@@ -33,9 +33,9 @@ const Contact = () => {
                                     />
                                 </div>  
                                 <div className="about-txt-container">
-                        <p className="about-p">A Software Engineer based out of Asheville, NC - looking to make my dreams become a reality!</p>
+                        <p className="about-p">A Software Engineer based out of Asheville, NC. Looking to make my dreams become a reality!</p>
                         <ul >
-                            <li className="li-contact">Email - william.rogers.chi@gmail.com</li>
+                            <li className="li-contact">Email - <span className="li-text">william.rogers.chi@gmail.com</span></li>
                             <li className="li-contact">Socials - <Link className="li-link" to='https://github.com/williamrogerschi' target="_blank">GitHub </Link> <Link className="li-link" to='https://www.linkedin.com/in/billy-rogers-chi/' target="_blank">LinkedIn</Link></li>
                         </ul>
                         </div>
