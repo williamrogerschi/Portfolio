@@ -73,11 +73,12 @@ a.home-link:hover {
     display: grid;
     place-items: center;
     margin-top: 10vh;
+    max-width: 75%;
   }
 }
 
   .hello {
-    margin-bottom: 3.5vh;
+    /* margin-bottom: 3.5vh; */
     animation: animate 2s linear;
     font-family: 'March', sans-serif;
   }
@@ -126,9 +127,8 @@ a.home-link:hover {
     font-family: 'Kayak Sans Regular', sans-serif;
     font-weight: 400;
     font-size: 2.6vh;
-    margin-top: -70px;
     padding-bottom: 0.5rem;
-    padding-top: 1rem;
+    margin-top: 0;
 
     @media screen and (max-width: 1200px) {
       font-size: 2.3vh;
@@ -143,6 +143,7 @@ a.home-link:hover {
   
     @media screen and (max-width: 1200px) {
       padding-top: 0.5rem;
+      max-width: fit-content;
       font-size: 1.25vh;
     }
   }
