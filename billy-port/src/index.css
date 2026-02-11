@@ -9,6 +9,7 @@
     --dark-link-color: #86615C; 
     --light-button-bg: #252422;
     --light-button-color: #E9D3D0;
+    --text-decoration-color: #D5C5C8;
   }
   [data-theme='dark'] {
     --background: #252422;
@@ -18,6 +19,7 @@
     --background-image: url('/assets/wb.png');
     --dark-button-bg: #86615C; 
     --dark-button-color: #252422;
+    --text-decoration-color: #252422;
   }
   [data-theme='dark'] a {
     color: var(--dark-link-color);
