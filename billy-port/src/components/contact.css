@@ -141,7 +141,7 @@ a.home-link:hover {
   font-size: 40vh;
 
   @media screen and (max-width: 1200px) {
-    font-size: 12.8vh;
+    font-size: 12vh;
   }
 }
 
