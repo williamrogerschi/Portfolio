@@ -105,11 +105,15 @@ a.home-link:hover {
   position: absolute;
   top: 0;
   left: 0;
+  max-width: 95vw;
+  overflow: hidden;
 
   @media screen and (max-width: 1200px) {
     position: absolute;
     top: 0;
     left: 0;
+    max-width: 90vw;
+    overflow: hidden;
   }
 }
 
