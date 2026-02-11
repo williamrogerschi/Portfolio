@@ -90,13 +90,26 @@ a.home-link:hover {
   line-height: 0.9;
   margin-bottom: 2vh;
   min-width: 50vw;
+  position: relative;  /* ADD THIS */
 
   @media screen and (max-width: 1200px) {
     line-height: 0.85;
     margin-bottom: 1vh;
-    min-width: 95vw;
-    margin-left: -1rem;
-    padding-left: 1rem;
+    min-height: 10vh;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.hello span {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @media screen and (max-width: 1200px) {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 
@@ -108,19 +121,6 @@ a.home-link:hover {
     animation-play-state: paused;
     opacity: 1;
   }
-}
-
-/* Hide TypeAnimation cursor */
-.hello .index-module_type__E-SaG::after,
-.hello span::after {
-  display: none !important;
-  content: '' !important;
-  visibility: hidden !important;
-}
-
-/* Additional cursor targeting */
-[class*="type__"]::after {
-  opacity: 0 !important;
 }
 
 .contact-content-container {
