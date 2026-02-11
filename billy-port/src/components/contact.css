@@ -90,7 +90,6 @@ a.home-link:hover {
   line-height: 0.9;
   margin-bottom: 2vh;
   min-width: 50vw;
-  background-color: var(--background);
 
   @media screen and (max-width: 1200px) {
     line-height: 0.85;
@@ -98,7 +97,6 @@ a.home-link:hover {
     min-width: 95vw;
     margin-left: -1rem;
     padding-left: 1rem;
-    background-color: var(--background);
   }
 }
 
@@ -110,6 +108,15 @@ a.home-link:hover {
     animation-play-state: paused;
     opacity: 1;
   }
+}
+
+.hello span::after {
+  background-color: var(--background) !important;
+  color: var(--primary-text-color) !important;
+}
+
+.index-module_type__E-SaG::after {
+  background-color: transparent !important;
 }
 
 .contact-content-container {
