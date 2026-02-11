@@ -110,13 +110,17 @@ a.home-link:hover {
   }
 }
 
+/* Hide TypeAnimation cursor */
+.hello .index-module_type__E-SaG::after,
 .hello span::after {
-  background-color: var(--background) !important;
-  color: var(--primary-text-color) !important;
+  display: none !important;
+  content: '' !important;
+  visibility: hidden !important;
 }
 
-.index-module_type__E-SaG::after {
-  background-color: transparent !important;
+/* Additional cursor targeting */
+[class*="type__"]::after {
+  opacity: 0 !important;
 }
 
 .contact-content-container {
