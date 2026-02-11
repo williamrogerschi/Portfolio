@@ -79,7 +79,8 @@ a.home-link:hover {
   @media screen and (max-width: 1200px) {
     display: grid;
     place-items: center;
-    max-width: 75%;
+    max-width: 90%;
+    overflow: visible;
   }
 }
 
@@ -89,13 +90,15 @@ a.home-link:hover {
   line-height: 0.9;
   margin-bottom: 2vh;
   min-width: 50vw;
+  background-color: var(--background);
 
   @media screen and (max-width: 1200px) {
     line-height: 0.85;
     margin-bottom: 1vh;
-    min-width: 100vw;
+    min-width: 95vw;
     margin-left: -1rem;
     padding-left: 1rem;
+    background-color: var(--background);
   }
 }
 
@@ -129,9 +132,11 @@ a.home-link:hover {
 
 .about-txt-container {
   padding-left: 3vh;
+  width: 100%;
 
   @media screen and (max-width: 1200px) {
     padding-left: 0.5vh;
+    width: 100%;
   }
 }
 
